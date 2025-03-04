@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Arial Black Italic";
+    src: url("../fonts/Arial\ Black\ Italic.ttf");
+}
+body::before {
+    background-image: url(../images/fondo_iii.webp);
+    filter: blur(10px);
+}
+body {
+    color: #ffffff;
+}
+h2 {
+    color: #e8a701;
+    text-shadow: 3px 3px 0 #040401;
+}
+h2, h3 {
+    font-family: "Arial Black Italic";
+}
+.trucos h3, .trucos-active h3 {
+    color: #e8a701;
+    text-decoration: underline;
+    text-shadow: 3px 3px 0 #040401;
+}
+.trucos ul {
+    background-color: #6166ac11;
+}
+.plataforma.selected {
+    border: 5px solid #373af7;
+    transform: 1s border ease;
+}
+#pc span {
+    border-color: #373af7;
+}
+.header {
+    background-image: linear-gradient(45deg, #212642, #6a838f);
+}
+.header-img {
+    filter: drop-shadow(1px 1px 30px #f3f3f3);
+}
+.hamburger {
+    border: 3px solid #e8a701;
+}
+.line {
+    background-color: #ffffff;
+}
+.menu-content {
+    background-color: #20193adc;
+    box-shadow: 0px 8px 16px 0px #00000033;
+}
+.menu-content a {
+    color: #ffffff;
+    font-family: "Arial Black Italic";
+}
+.menu-content a.active {
+    color: #e8a701;
+}
+.dropdown-content {
+    background-color: #293542d9;
+    box-shadow: 0px 8px 16px 0px #fff70033;
+}
+.anchor, .anchor:visited {
+    color: #e8a701;
+    text-shadow: 3px 3px 0 #040401;
+}
+.ficha-tecnica {
+    border: 3px solid #000000;
+    background-color: #17294c;
+}
+.ficha-tecnica h2 {
+    color: #e8a701;
+    text-shadow: 3px 3px 0 #040401;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #ffffffd8;
+}
+.ficha-tecnica th {
+    border-right: 4px solid #a5c5f5e0;
+    background-color: #130b41;
+}
+.ficha-tecnica .titulo {
+    color: #e8a701;
+}
+abbr {
+    font-family: "Arial Black Italic";
+    color:#e8a701;
+}
+.dma:hover {
+    cursor: help;
+}
+.dma, abbr {
+    text-decoration: underline dotted #e8a701;
+}
+.container {
+    background-color: #293561d5;
+}
+.radio-container img {
+    background-color: #38737e;
+}
+.radio-container img:hover {
+    background-image: linear-gradient( #3740b9fd, #00000075);
+}
+.radio-container img:nth-child(9) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(11) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(13) {
+    margin-left: 150px;
+}
+footer {
+    background: #0a1f25cc;
+}
+footer p {
+    color: #ffffff;
+}
+#playingImage {
+    border: 3px solid #052e50;
+    background-color: #ffffff;
+}
+#progressBarContainer {
+    background-color: #ffffff;
+}
+#progressBar {
+    background-color: #3612bb;
+}
+#progressBarContainer:hover #progressThumb {
+    background: #162b3d;
+}
+#timeCurrent {
+    color: #fff;
+}
+.menu {
+    border: 4px solid #77728f;
+    background-color: #b4adad2f;
+    box-shadow: 0 0 30px #68656e9f;
+}
+.imagen-plataforma img {
+    border: 4px solid #0c0c0c;
+    background-color: #1ad8e61a;
+}

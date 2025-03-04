@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Arborcrest";
+    src: url("../fonts/SF\ Arborcrest.ttf");
+}
+body::before {
+    background-image: url(../images/fondo_vc.webp);
+    filter: blur(10px);
+}
+h2 {
+    color: #f900aa;
+    text-shadow: -1px -1px 0 #232121;
+}
+h2, h3 {
+    font-family: "Arborcrest";
+}
+.trucos h3, .trucos-active h3 {
+    color: #f900aa;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px #040401;
+}
+.plataforma.selected {
+    border: 5px solid #7cd9f3;
+    transform: 1s border ease;
+}
+.trucos ul {
+    background-color: #a138e78f;
+}
+#pc span {
+    border-color: #24232373;
+    color:#18e1f0;
+    background-color: #1110103b;
+}
+.header {
+    background-image: linear-gradient(45deg, #dc6ec4, #8749b4);
+}
+.header-img {
+    filter: drop-shadow(0px 0px 10px #f0e9ef);
+}
+.hamburger {
+    border: 3px solid #d672ce;
+}
+.line {
+    background-color: #faf6f6;
+}
+.menu-content {
+    background-color: #f230d5e1;
+}
+.menu-content a {
+    color: #000000;
+    font-family: "Arborcrest";
+    font-size: 1rem;
+}
+.menu-content a.active {
+    color: #00ffea;
+}
+.dropdown-content {
+    background-color: #822d8ad9;
+    box-shadow: 0px 8px 16px 0px #dba8ff;
+}
+.anchor, .anchor:visited {
+    color: #00ffeb;
+    text-shadow: 3px 3px 0 #000000;
+}
+.ficha-tecnica {
+    border: 3px solid #000000;
+    background-color: #e06deb;
+}
+.ficha-tecnica h2 {
+    color: #ff0ab5;
+    text-shadow: 3px 3px 2px #0f0b0b;
+}
+.ficha-tecnica th {
+    border-right: 3px solid #000000;
+    background-color: #f93aa9;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #000000d8;
+}
+.ficha-tecnica .titulo {
+    color: #f92cb8;
+}
+abbr {
+    font-family: "Arborcrest";
+    color:#8c0953f4;
+}
+.container {
+    background-color: #ae35f9c1;
+}
+.radio-container img {
+    background-color: #eba3f1;
+}
+.radio-container img:hover {
+    background-image: linear-gradient( #f77edcfd, #00000075);
+}
+.radio-container img:nth-child(9) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(11) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(13) {
+    margin-left: 150px;
+}
+footer {
+    background: linear-gradient(180deg, #ee62d0fd, #f0bae4);
+}
+#playingImage {
+    border: 3px solid #cc00f5;
+    background-color: #ffffff;
+}
+#progressBarContainer {
+    background-color: #ffffff;
+}
+#progressBar {
+    background-color: #000000;
+}
+.menu {
+    border: 4px solid #ac2f91ce;
+    background-color: #e60b922f;
+    box-shadow: 0 0 30px #68656e9f;
+}
+.imagen-plataforma img {
+    border: 4px solid #0c0c0c;
+    background-color: #e61ad538;
+}
