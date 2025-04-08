@@ -31,13 +31,14 @@ h2, h3 {
     background-color: #23d6133b;
 }
 .header {
-    background-image: linear-gradient(177deg, #12ee84, #2d7114);
+    background-color: #295e16;
 }
 .header-img {
-    filter: drop-shadow(3px 1px 5px #19d426);
+    filter: drop-shadow(1px -10px 30px #3cff01);
 }
 .hamburger {
-    border: 3px solid #06550c;
+    border: 3px solid #19d426;
+    box-shadow: 1px 1px 70px #3cff01;
 }
 .line {
     background-color: #faf6f6;
@@ -54,7 +55,7 @@ h2, h3 {
     color: #52f10e;
 }
 .dropdown-content {
-    background-color: rgba(60, 131, 74, 0.85);
+    background-color: #19d425d7;
     box-shadow: 0px 8px 16px 0px #1b4c0d;
 }
 .anchor, .anchor:visited {

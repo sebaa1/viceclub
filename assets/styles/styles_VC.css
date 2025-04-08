@@ -31,13 +31,14 @@ h2, h3 {
     background-color: #1110103b;
 }
 .header {
-    background-image: linear-gradient(45deg, #dc6ec4, #8749b4);
+    background-color: #dc6ec4;
 }
 .header-img {
-    filter: drop-shadow(0px 0px 10px #f0e9ef);
+    filter: drop-shadow(1px -10px 30px #330147);
 }
 .hamburger {
-    border: 3px solid #d672ce;
+    border: 3px solid #d4acd1;
+    box-shadow: 1px 1px 70px #330147;
 }
 .line {
     background-color: #faf6f6;
@@ -54,7 +55,7 @@ h2, h3 {
     color: #00ffea;
 }
 .dropdown-content {
-    background-color: #822d8ad9;
+    background-color: #822d8af1;
     box-shadow: 0px 8px 16px 0px #dba8ff;
 }
 .anchor, .anchor:visited {
@@ -78,10 +79,11 @@ h2, h3 {
 }
 .ficha-tecnica .titulo {
     color: #f92cb8;
+    text-shadow: 2px 2px #000000;
 }
 abbr {
     font-family: "Arborcrest";
-    color:#8c0953f4;
+    color:#c7138b;
 }
 .container {
     background-color: #ae35f9c1;

@@ -1,10 +1,14 @@
 @font-face {
-    font-family: "Chalet";
-    src: url("../fonts/Chalet.otf");
+    font-family: "Helvetica Condensed";
+    src: url("../fonts/Helvetica\ Condensed.otf");
 }
 body::before {
     background-image: url(../images/fondo_vi.webp);
-    filter: blur(3px);
+    filter: blur(7px);
+}
+.container {
+    background-color: #371c33ea;
+    color: #ffffff;
 }
 .block h1 {
     color: #ea8ed5;
@@ -25,7 +29,7 @@ body::before {
     text-shadow: 3px 3px 0 #fa739775;
 }
 .block p {
-    font-family: "Chalet";
+    font-family: "Helvetica Condensed";
     margin-bottom: 20px;
     color: white;
     margin-left: 25px;
@@ -36,7 +40,7 @@ body::before {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgba(55, 28, 51, 0.918);
+    background-color: #371c33ea;
     padding: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     min-height: 100vh;
@@ -59,34 +63,57 @@ body::before {
     color: rgb(228, 171, 216);
     text-decoration: underline;
 }
+h2 {
+    color: #ffffff;
+}
+h1, h2, h3 {
+    font-family: "Helvetica Condensed";
+}
 .header {
-    background-image: linear-gradient(90deg, #a0bccf 0%, #e7c4df 50%);
+    background-color:  #c6a0cf;
 }
 .header-img {
-    filter: drop-shadow(3px 0px 5px #8beef9);
+    filter: drop-shadow(1px -10px 30px #05acac);
 }
 .hamburger {
-    border: 3px solid #e64abf;
+    border: 3px solid #7e3a6d;
+    box-shadow: 1px 1px 70px #05acac
 }
 .line {
-    background-color: #f300a2;
+    background-color: #b9669c;
 }
 .menu-content {
     background-color: #c984c9cb;
+    width: 50px;
 }
 .menu-content a {
     color: #fdfdfd;
+    font-family: "Helvetica Condensed";
 }
 .menu-content a.active {
     color:#520f4e;
 }
 .dropdown-content {
-    background-color: rgba(64, 41, 66, 0.829);
+    background-color: #5a255fd3;
     box-shadow: 0px 8px 16px 0px #44ffc4;
 }
 .anchor, .anchor:visited {
     color: #800080;
     text-shadow: 3px 3px 0 #fa739775;
+}
+.ficha-tecnica {
+    border: 3px solid #ffffff;
+    background-color: #ce57c4af;
+}
+.ficha-tecnica h2 {
+    color: #000000;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #0a0a0a;
+}
+.ficha-tecnica th {
+    border-right: 4px solid #5b295c;
+    background-color: #4e1c5a96;
 }
 .acotacion {
     font-size: 0.9375rem;
