@@ -2,6 +2,9 @@
     font-family: "Helvetica Condensed";
     src: url("../fonts/Helvetica\ Condensed.otf");
 }
+:root {
+    --container-shadow-color: #b63eb6;
+    }
 body::before {
     background-image: url(../images/fondo_vi.webp);
     filter: blur(7px);

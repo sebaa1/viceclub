@@ -2,13 +2,19 @@
     font-family: "Arborcrest";
     src: url("../fonts/SF\ Arborcrest.ttf");
 }
+:root {
+    --container-shadow-color: #020c0e;
+}
 body::before {
     background-image: url(../images/fondo_vc.webp);
-    filter: blur(10px);
+    filter: blur(4px);
 }
 h2 {
     color: #f900aa;
     text-shadow: -1px -1px 0 #232121;
+}
+#radio-title {
+    text-shadow: 3px 3px 0 #1a1418;
 }
 h2, h3 {
     font-family: "Arborcrest";
@@ -78,12 +84,15 @@ h2, h3 {
     border-top: 1px solid #000000d8;
 }
 .ficha-tecnica .titulo {
-    color: #f92cb8;
-    text-shadow: 2px 2px #000000;
+    color: #80085a;
+    text-shadow: 2px 2px 3px #e09ce0;
 }
 abbr {
     font-family: "Arborcrest";
-    color:#c7138b;
+    color: #99036c;
+}
+.release-date ul {
+    border-bottom: 2px solid #b65ab9;
 }
 .container {
     background-color: #ae35f9c1;

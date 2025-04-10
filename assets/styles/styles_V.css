@@ -2,6 +2,9 @@
     font-family: "Chalet";
     src: url("../fonts/Chalet.otf");
 }
+:root {
+    --container-shadow-color: #0be2ac;
+    }
 body::before {
     background-image: url(../images/fondo_v.webp);
     filter: blur(10px);
@@ -69,6 +72,9 @@ h2, h3 {
 abbr {
     font-family: "Chalet";
     color: #166702;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
 }
 .container {
     background-color: #42b74cc7;

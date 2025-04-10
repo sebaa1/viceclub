@@ -2,6 +2,9 @@
     font-family: "Helvetica Neue Heavy";
     src: url("../fonts/HelveticaNeueHeavy.otf");
 }
+:root {
+    --container-shadow-color: #1c1c1d;
+    }
 body::before {
     background-image: url(../images/fondo_iv.webp);
     filter: blur(9px);
@@ -90,6 +93,9 @@ h2, h3 {
 abbr {
     font-family: "Helvetica Neue Heavy";
     color:#2c2c2cf4;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
 }
 .container {
     background-color: #111210dc;

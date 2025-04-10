@@ -2,6 +2,9 @@
     font-family: "Geneva";
     src: url("../fonts/Geneva\ Regular.ttf");
 }
+:root {
+    --container-shadow-color: #420455;
+    }
 body::before {
     background-image: url(../images/fondo_vcs.webp);
     filter: blur(10px);
@@ -24,7 +27,7 @@ h2, h3 {
     box-shadow: 1px 1px 70px #801f94
 }
 .line {
-    background-color: #ffffff;
+    background-color: #c7e9ee;
 }
 .menu-content {
     background-color: #971d5adb;
@@ -74,6 +77,9 @@ h2, h3 {
 abbr {
     font-family: "Geneva";
     color: #c533cffc;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
 }
 .container {
     background-color: #fb58fbd7;

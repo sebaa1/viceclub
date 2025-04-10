@@ -2,9 +2,12 @@
     font-family: "Eurostyle";
     src: url("../fonts/Eurostile Bold.ttf");
 }
+:root {
+    --container-shadow-color: #550d04;
+}
 body::before {
     background-image: url(../images/fondo_lcs.webp);
-    filter: blur(10px);
+    filter: blur(5px);
 }
 h2 {
     color: #e81b25;
@@ -74,6 +77,9 @@ h2, h3 {
 abbr {
     font-family: "Eurostyle";
     color: #de2b2bfc;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
 }
 .container {
     background-color: #fa7676e7;

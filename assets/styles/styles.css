@@ -9,10 +9,11 @@ body::before {
 }
 
 .block {
-    background: #f7b6ec93;
+    background: #f7b6ecc5;
     margin: 120px;
-    padding: 10px;
+    padding: 30px;
     border-radius: 15px;
+    box-shadow: 0 0 20px #00000080;
 }
 h1 {
     text-align: center;
@@ -96,8 +97,11 @@ td {
     background-color: #ffffff72;
 }
 .leyenda {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: #4f4545;
     font-style: italic;
-    margin-inline-start: 60px;
-    text-align: center;
-    color: #4f4545
+    font-size: 15px;
 }

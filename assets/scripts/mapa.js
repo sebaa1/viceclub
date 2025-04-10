@@ -1,33 +1,83 @@
-// Crear el mapa sin coordenadas geográficas
 var map = L.map('map', {
     minZoom: 0,
     maxZoom: 2,
     crs: L.CRS.Simple,
-    maxBounds: [[0, 0], [1000, 1000]], // Establece los límites del mapa
-    maxBoundsViscosity: 0.5 // Hace que el mapa sea "pegajoso" en los bordes
+    maxBounds: [[0, 0], [1000, 1000]],
+    maxBoundsViscosity: 0.5
 });
 
-// Cargar imagen del mapa
-var bounds = [[0, 0], [1000, 1000]]; // Ajusta el tamaño según tu imagen
-L.imageOverlay('../assets/images/gta_3_map.webp', bounds).addTo(map);
-map.fitBounds(bounds);
+var bounds = [[0, 0], [1000, 1000]];
+var imageOverlay;
+var currentMarkers = [];
 
-// Crear un control de referencia
-var referenceBox = L.control({ position: 'topright' });
-
-referenceBox.onAdd = function(map) {
-    var div = L.DomUtil.create('div', 'reference-box');
-    div.innerHTML = '<h4>Referencias</h4>' +
-                    '<div id="salto-unico-ref"><img src="../assets/images/salto_unico.webp" alt="Salto único" style="width:50px;height:50px;vertical-align:middle;">' +
-                    '<span style="vertical-align:middle;"> Salto único (0/20)</span></div>' +
-                    '<div id="paquetes-ref"><img src="../assets/images/paquete.webp" alt="Otra ubicación" style="width:50px;height:30px;vertical-align:middle;">' +
-                    '<span style="vertical-align:middle;"> Paquetes ocultos (0/100)</span></div>';
-    return div;
+const gameData = {
+    gta_3: {
+        mapImage: '../assets/images/gta_3_map.webp',
+        references: [
+            { id: "salto-unico-ref", label: "Salto único", img: "../assets/images/salto_unico.webp", total: 20 },
+            { id: "paquetes-ref", label: "Paquetes ocultos", img: "../assets/images/paquete.webp", total: 100 }
+        ],
+        markers: [
+            { position: [150, 800], label: "Salto único", content: "Este es un salto único", refId: "salto-unico-ref" },
+            { position: [700, 300], label: "Paquete", content: "Descripción del paquete", refId: "paquetes-ref" }
+        ]
+    },
+    gta_vc: {
+        mapImage: '../assets/images/gta_vc_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    },
+    gta_sa: {
+        mapImage: '../assets/images/gta_sa_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    },
+    gta_lcs: {
+        mapImage: '../assets/images/gta_lcs_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    },
+    gta_vcs: {
+        mapImage: '../assets/images/gta_vcs_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    },
+    gta_4: {
+        mapImage: '../assets/images/gta_4_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    },
+    gta_5: {
+        mapImage: '../assets/images/gta_5_map.webp',
+        references: [
+            { id: "piezas-vc", label: "Piezas ocultas", img: "../assets/images/pieza_vc.webp", total: 50 }
+        ],
+        markers: [
+            { position: [500, 600], label: "Pieza oculta", content: "Una pieza secreta", refId: "piezas-vc" }
+        ]
+    }
+    // Puedes seguir agregando juegos aquí
 };
-
-
-// Añadir el control de referencia al mapa
-referenceBox.addTo(map);
 
 function toggleMarker(marker, refId) {
     var currentOpacity = marker.options.opacity;
@@ -45,10 +95,43 @@ function toggleMarker(marker, refId) {
     }
 }
 
+var referenceBox = L.control({ position: 'topright' });
 
-// Agregar pines interactivos
-var marker1 = L.marker([150, 800], { opacity: 1 }).addTo(map)
-.bindPopup("<b>Salto único</b><br>Este es un salto único.<br><button onclick='toggleMarker(marker1, \"salto-unico-ref\")'>OCULTAR</button>");
+referenceBox.onAdd = function(map) {
+    var div = L.DomUtil.create('div', 'reference-box');
+    div.id = 'reference-box-content';
+    return div;
+};
 
-var marker2 = L.marker([700, 300], { opacity: 1 }).addTo(map)
-.bindPopup("<b>Otra ubicación</b><br>Descripción de este lugar.<br><button onclick='toggleMarker(marker2, \"otra-ubicacion-ref\")'>OCULTAR</button>");
+referenceBox.addTo(map);
+
+function loadCurrentGameMap() {
+    const gameKey = document.body.dataset.game;
+    const data = gameData[gameKey];
+
+    if (!data) {
+        console.error('No se encontraron datos para el juego:', gameKey);
+        return;
+    }
+
+    imageOverlay = L.imageOverlay(data.mapImage, bounds).addTo(map);
+    map.fitBounds(bounds);
+
+    const refBox = document.getElementById('reference-box-content');
+    refBox.innerHTML = '<h4>Referencias</h4>';
+    data.references.forEach(ref => {
+        refBox.innerHTML += `
+            <div id="${ref.id}">
+                <img src="${ref.img}" alt="${ref.label}" style="width:50px;height:30px;vertical-align:middle;">
+                <span style="vertical-align:middle;"> ${ref.label} (0/${ref.total})</span>
+            </div>`;
+    });
+
+    data.markers.forEach((m, index) => {
+        const marker = L.marker(m.position, { opacity: 1 }).addTo(map)
+            .bindPopup(`<b>${m.label}</b><br>${m.content}<br><button onclick='toggleMarker(currentMarkers[${index}], "${m.refId}")'>OCULTAR</button>`);
+        currentMarkers.push(marker);
+    });
+}
+
+loadCurrentGameMap();

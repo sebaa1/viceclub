@@ -2,9 +2,12 @@
     font-family: "Arial Black Italic";
     src: url("../fonts/Arial\ Black\ Italic.ttf");
 }
+:root {
+    --container-shadow-color: #1b075e;
+}
 body::before {
     background-image: url(../images/fondo_iii.webp);
-    filter: blur(10px);
+    filter: blur(7px);
 }
 body {
     color: #ffffff;
@@ -94,6 +97,9 @@ abbr {
 .container {
     background-color: #293561d5;
 }
+.release-date ul {
+    border-bottom: 2px solid #073e75;
+}
 .radio-container img {
     background-color: #38737e;
 }
@@ -110,14 +116,14 @@ abbr {
     margin-left: 150px;
 }
 footer {
-    background: #0a1f25cc;
+    background: #0a1f25f5;
 }
 footer p {
     color: #ffffff;
 }
 #playingImage {
-    border: 3px solid #052e50;
-    background-color: #ffffff;
+    border: 3px solid #2083d3;
+    background-color: #020b5e;
 }
 #progressBarContainer {
     background-color: #ffffff;
