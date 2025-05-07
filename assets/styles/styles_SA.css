@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Bank Gothic";
+    src: url("../fonts/Bank\ Gothic.ttf");
+}
+:root {
+--container-shadow-color: #045511;
+}
+body::before {
+    background-image: url(../images/fondo_sa.webp);
+    filter: blur(5px);
+}
+h2 {
+    color: #61bb17;
+    text-shadow: 3px 3px 0 #232121;
+}
+h2, h3 {
+    font-family: "Bank Gothic";
+}
+.trucos h3, .trucos-active h3 {
+    color: #61bb17;
+    text-decoration: underline;
+    text-shadow: 3px 3px 0 #040401;
+}
+.trucos ul {
+    background-color: #61b96644;
+    width: 900px !important;
+}
+.plataforma.selected {
+    border: 5px solid #17be1f;
+}
+#pc span {
+    border-color: #24232373;
+    color:#000000;
+    background-color: #23d6133b;
+}
+.header {
+    background-color: #295e16;
+}
+.header-img {
+    filter: drop-shadow(1px -10px 30px #3cff01);
+}
+.hamburger {
+    border: 3px solid #19d426;
+    box-shadow: 1px 1px 70px #3cff01;
+}
+.line {
+    background-color: #faf6f6;
+}
+.menu-content {
+    background-color: #135519ec;
+}
+.menu-content a {
+    color: #ffffff;
+    font-family: "Bank Gothic";
+    font-size: 1rem;
+}
+.menu-content a.active {
+    color: #52f10e;
+}
+.dropdown-content {
+    background-color: #19d425d7;
+    box-shadow: 0px 8px 16px 0px #1b4c0d;
+}
+.anchor, .anchor:visited {
+    color: #f19e03;
+    text-shadow: 3px 3px 0 #000000;
+}
+.ficha-tecnica {
+    border: 3px solid #000000;
+    background-color: #42ad48;
+}
+.ficha-tecnica h2 {
+    color: #08441a;
+    text-shadow: 3px 3px 2px #95dd99;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #042c00d7;
+}
+.ficha-tecnica th {
+    border-right: 3px solid #055a1abe;
+    background-color: #56c14e;
+}
+.ficha-tecnica .titulo {
+    color: #272926;
+}
+abbr {
+    font-family: "Bank Gothic";
+    color:#9dff2d;
+}
+.release-date ul {
+    border-bottom: 2px solid #00631e;
+}
+.container {
+    background-color: #a2f0abce;
+}
+.radio-container img {
+    background-color: #000000;
+}
+.radio-container img:hover {
+    background-image: linear-gradient( #0b0b0cfd, #0f3b15b0);
+}
+.radio-container img:nth-child(17) {
+    margin-left: 290px;
+}
+.radio-container img:nth-child(19) {
+    margin-left: 290px;
+}
+footer {
+    background: linear-gradient(#05b10ec9, #000000be);
+}
+footer p, #timeCurrent {
+    color: #ffffff;
+}
+#playingImage {
+    border: 3px solid #32ff1f;
+    background-color: #000000;
+}
+#progressBarContainer {
+    background-color: #ffffff;
+}
+#progressBar {
+    background-color: #5ad621;
+}
+.menu {
+    border: 4px solid #63b44ace;
+    background-color: #12e60b2f;
+    box-shadow: 0 0 30px #3180299f;
+}
+.imagen-plataforma img {
+    border: 4px solid #0c0c0c;
+    background-color: #055e0a38;
+}

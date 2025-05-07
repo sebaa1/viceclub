@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.otf");
+}
+
+body::before {
+    background-image: url(../images/fondo.webp);
+    filter: blur(6px);
+}
+
+.block {
+    background: #f7b6ecc5;
+    margin: 120px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00000080;
+}
+h1 {
+    text-align: center;
+    color: #e7c4df;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 2.4rem;
+    text-shadow: -1px -1px 0 #8f0571;
+    margin-top: -4px;
+    border-bottom: 2px solid transparent;
+    border-image-slice: 1;
+}
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: -10px
+}
+h3 {
+    font-size: 1.6rem;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #dc6ec4, #8749b4) 1;
+}
+h4 {
+    font-size: 2.5rem;
+    font-family: "Pricedown";
+    color: #343b3a;
+    text-shadow: 3px 3px 0 #e7e7d6;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+h5 {
+    font-size: 1.2rem;
+}
+h5, p {
+    margin-left: 40px;
+    margin-bottom: 10px
+}
+.navbar {
+    color: #ffffff;
+}
+.header {
+    background-image: linear-gradient(45deg, #dc6ec4, #8749b4);
+}
+.header-img {
+    filter: drop-shadow(1px -10px 30px #39ffe5);
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+}
+.dropdown-content {
+    background-color: #402942d9;
+    box-shadow: 0px 8px 16px 0px #44ffc4;
+}
+.juego {
+    width: 30px
+}
+.logo {
+    width: 21px;
+}
+table {
+    align-items: center;
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto 0 auto;
+}
+th, td {
+    border: 1px solid #fff4f4;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #b75ebd;
+    font-weight: bold;
+}
+td {
+    background-color: #ffffff72;
+}
+.leyenda {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: #4f4545;
+    font-style: italic;
+    font-size: 15px;
+}

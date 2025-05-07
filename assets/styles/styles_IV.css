@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Helvetica Neue Heavy";
+    src: url("../fonts/HelveticaNeueHeavy.otf");
+}
+:root {
+    --container-shadow-color: #1c1c1d;
+    }
+body::before {
+    background-image: url(../images/fondo_iv.webp);
+    filter: blur(9px);
+}
+body {
+    color: #ffffff;
+}
+h2 {
+    color: #b2b2b2;
+    text-shadow: 3px 3px 0 #000000;
+}
+h2, h3 {
+    font-family: "Helvetica Neue Heavy";
+}
+.trucos h3, .trucos-active h3 {
+    color: #e8a701;
+    text-decoration: underline;
+    text-shadow: 3px 3px 0 #040401;
+}
+.trucos ul {
+    background-color: #6166ac11;
+}
+.header {
+    background-color: #464646
+}
+.header-img {
+    filter: drop-shadow(1px -10px 30px #ffffff);
+}
+.hamburger {
+    border: 3px solid #ffffff;
+    
+}
+.line {
+    background-color: #cfcece;
+}
+.menu-content {
+    background-color: #403e3ef6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.menu-content a {
+    color: #6b6666;
+    font-family: "Helvetica Neue Heavy";
+}
+.menu-content a.active {
+    color: #ffffff;
+}
+.dropdown-content {
+    background-color: #5a5a5af3;
+    box-shadow: 0px 8px 16px 0px #decbb9;
+}
+.anchor, .anchor:visited {
+    color: #ffffff;
+    text-shadow: 3px 3px 0 #000000;
+}
+.trucos {
+    display: block;
+}
+.trucos span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #a7a5a5;
+}
+.trucos h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.ficha-tecnica {
+    border: 3px solid #000000;
+    background-color: #777977;
+}
+.ficha-tecnica h2 {
+    color: #0f0b0b;
+    text-shadow: 3px 3px 4px #d9d9d9;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #000000;
+}
+.ficha-tecnica th {
+    border-right: 4px solid #ebd8df;
+    background-color: #353535;
+}
+.ficha-tecnica .titulo {
+    color: #000000;
+}
+abbr {
+    font-family: "Helvetica Neue Heavy";
+    color:#2c2c2cf4;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
+}
+.container {
+    background-color: #111210dc;
+}
+.radio-container img {
+    background-color: #3c3f3f;
+}
+.radio-container img:hover {
+    background-image: linear-gradient( #fffffffd, #00000075);
+}
+.radio-container img:nth-child(33) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(35) {
+    margin-left: 150px;
+}
+.radio-container img:nth-child(37) {
+    margin-left: 150px;
+}
+footer {
+    background: linear-gradient(#fefefffd, #31292fe8);
+}
+footer p {
+    color: #000000;
+}
+#playingImage {
+    border: 3px solid #717579;
+    background-color: #ffffff;
+}
+#progressBarContainer {
+    background-color: #ffffff;
+}
+#progressBar {
+    background-color: #5a5858;
+}
+#progressBarContainer:hover #progressThumb {
+    background: #000000;
+}

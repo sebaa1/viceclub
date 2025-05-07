@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Geneva";
+    src: url("../fonts/Geneva\ Regular.ttf");
+}
+:root {
+    --container-shadow-color: #420455;
+    }
+body::before {
+    background-image: url(../images/fondo_vcs.webp);
+    filter: blur(10px);
+}
+h2 {
+    color: #b55582;
+    text-shadow: 3px 3px 0 #040403;
+}
+h2, h3 {
+    font-family: "Geneva";
+}
+.header {
+    background-color: #9bcaff;
+}
+.header-img {
+    filter: drop-shadow(1px -10px 30px #801f94);
+}
+.hamburger {
+    border: 3px solid #47a7df;
+    box-shadow: 1px 1px 70px #801f94
+}
+.line {
+    background-color: #c7e9ee;
+}
+.menu-content {
+    background-color: #971d5adb;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.menu-content a {
+    color: #ffffff;
+    font-family: "Geneva";
+}
+.menu-content a.active {
+    color: #ef74f3;
+}
+.dropdown-content {
+    background-color: #a13baad9;
+    box-shadow: 0px 8px 16px 0px #3bbff3;
+}
+.anchor, .anchor:visited {
+    color: #d42e7c;
+    text-shadow: 3px 3px 0 #040403;
+}
+.trucos h2, .trucos-active h2 {
+    color: #e8a701;
+}
+.trucos h3, .trucos-active h3 {
+    color: #ffffff;
+}
+.trucos ul {
+    background-color: #6166ac11;
+}
+.ficha-tecnica {
+    border: 3px solid #000000;
+    background-color: #fd8bd5;
+}
+.ficha-tecnica h2 {
+    color: #eb3ab6;
+}
+.ficha-tecnica td, .ficha-tecnica th {
+    border-top: 1px solid #000000;
+}
+.ficha-tecnica th {
+    background-color: #e994e6;
+    border-right: 4px solid #660047;
+}
+.ficha-tecnica .titulo {
+    color: #4c0e43;
+}
+abbr {
+    font-family: "Geneva";
+    color: #c533cffc;
+}
+.release-date ul {
+    border-bottom: 2px solid #073e75;
+}
+.container {
+    background-color: #fb58fbd7;
+}
+.radio-container img {
+    background-color: #9c5bda;
+}
+.radio-container img:hover {
+    background-image: linear-gradient( #77d1f5fd, #00000075);
+}
+footer {
+    background: linear-gradient(#ff3bbefd, #acacace8);
+}
+footer p {
+    color: #000000;
+}
+#playingImage {
+    border: 3px solid #fc076d;
+    background-color: #f0db81;
+}
+#progressBarContainer {
+    background-color: #ffffff;
+}
+#progressBar {
+    background-color: #700559;
+}
+#progressBarContainer:hover #progressThumb {
+    background: #dd53cb;
+}
