@@ -187,9 +187,13 @@ h2 {
     height: 70px;
 }
 .header-img:hover {
+<<<<<<< HEAD
     cursor: pointer;
     transition: 0.5s ease;
     transform: scale(1.1);
+=======
+    cursor: pointer
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 }
 .header-container {
     display: flex;
@@ -203,10 +207,13 @@ h2 {
     margin-right: 4px;
     border-radius: 6px;
 }
+<<<<<<< HEAD
 .hamburger:hover {
     transform: scale(1.1);
     transition: 0.3s ease;
 }
+=======
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 .line {
     display: block;
     width: 25px;
@@ -215,16 +222,25 @@ h2 {
 }
 .menu-content {
     position: absolute;
+<<<<<<< HEAD
     height: 85vh;
     width: 190%;
     right: 0;
     top: 150%;
+=======
+    right: 0;
+    top: 100%;
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     padding: 10px 20px;
     z-index: 1000;
     border-radius: 12px;
     border: 3px solid #000000;
     margin: 8px 3px;
     opacity: 0;
+<<<<<<< HEAD
+=======
+    transform: scale(0.95);
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     visibility: hidden;
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -240,11 +256,18 @@ h2 {
 .menu-content ul {
     list-style: none;
     padding: 0;
+<<<<<<< HEAD
     text-align: center;
 }
 .menu-content li {
     padding: 10px 0;
     margin-top: 20px;
+=======
+    margin: 0;
+}
+.menu-content li {
+    padding: 10px 0;
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 }
 .menu-content a {
     text-decoration: none;
@@ -257,14 +280,26 @@ h2 {
     visibility: hidden;
     pointer-events: none;
     position: fixed;
+<<<<<<< HEAD
     margin: 2px;
+=======
+    margin: 5px;
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     border-radius: 40px;
     top: 70px;
     left: 0;
     width: 100%;
+<<<<<<< HEAD
     flex-direction: row;
     gap: 1px;
     transition: opacity 0.3s ease-in-out;
+=======
+    margin-top: 0;
+    z-index: 999;
+    flex-direction: row;
+    gap: 10px;
+    transition: opacity 0.3s ease;
+>>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     justify-content: center;
     align-items: center;
 }
