@@ -1,11 +1,6 @@
 @font-face {
-<<<<<<< HEAD
     font-family: "GTA Art Deco";
     src: url("../fonts/GTA\ Art\ Deco.ttf");
-=======
-    font-family: "Helvetica Condensed";
-    src: url("../fonts/Helvetica\ Condensed.otf");
->>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 }
 :root {
     --container-shadow-color: #b63eb6;
@@ -37,11 +32,7 @@ body::before {
     text-shadow: 3px 3px 0 #fa739775;
 }
 .block p {
-<<<<<<< HEAD
     font-family: "GTA Art Deco";
-=======
-    font-family: "Helvetica Condensed";
->>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     margin-bottom: 20px;
     color: white;
     margin-left: 25px;
@@ -54,11 +45,7 @@ body::before {
     margin-left: auto;
     background-color: #371c33ea;
     padding: 1.5rem;
-<<<<<<< HEAD
     box-shadow: 0 0 10px #0000004d;
-=======
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
->>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
     min-height: 100vh;
     min-width: 50vh;
     border-image: linear-gradient(45deg,#3f5ece 0%, #e340b9 25%,#fe8176 50%,#fe8176 80%, #fdbd51 100%);
@@ -79,7 +66,6 @@ body::before {
     color: rgb(228, 171, 216);
     text-decoration: underline;
 }
-<<<<<<< HEAD
 .text-container h1 {
     text-align: center;
     color: #ffffff;
@@ -103,26 +89,6 @@ h1, h2, h3, a {
 }
 .line {
     background-color: #ff13ac;
-=======
-h2 {
-    color: #ffffff;
-}
-h1, h2, h3 {
-    font-family: "Helvetica Condensed";
-}
-.header {
-    background-color:  #c6a0cf;
-}
-.header-img {
-    filter: drop-shadow(1px -10px 30px #05acac);
-}
-.hamburger {
-    border: 3px solid #7e3a6d;
-    box-shadow: 1px 1px 70px #05acac
-}
-.line {
-    background-color: #b9669c;
->>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 }
 .menu-content {
     background-color: #c984c9cb;
@@ -130,11 +96,7 @@ h1, h2, h3 {
 }
 .menu-content a {
     color: #fdfdfd;
-<<<<<<< HEAD
     font-family: "GTA Art Deco";
-=======
-    font-family: "Helvetica Condensed";
->>>>>>> 587cc57b49f3a0702d2b24728a26e67f2ddec7d3
 }
 .menu-content a.active {
     color:#520f4e;
