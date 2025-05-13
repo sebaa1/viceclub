@@ -49,8 +49,8 @@ h2, h3 {
     color: #e81b25;
 }
 .dropdown-content {
-    background-color: #920707d8;
-    box-shadow: 0px 8px 16px 0px #ff7070;
+    background-color: #920707f3;
+    box-shadow: 0px 8px 16px 0px #000000;
 }
 .anchor, .anchor:visited {
     color: #f5b2b5;

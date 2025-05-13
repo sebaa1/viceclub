@@ -208,7 +208,20 @@ h2 {
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px;
+    margin: 4px;
+    transition: 0.3s ease;
+}
+
+.hamburger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
 }
 .menu-content {
     position: absolute;
@@ -226,17 +239,23 @@ h2 {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0s 0.3s;
     display: flex;
     flex-direction: column;
 }
 .menu-content.show {
     opacity: 1;
-    transform: scale(1);
+    transform: translateY(0);
     visibility: visible;
     pointer-events: auto;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
 }
-
+.menu-content.hide {
+  visibility: hidden;
+  pointer-events: none;
+  transition: visibility 0s 0.3s; /* Espera el fin de la animación */
+}
 .menu-content ul {
     list-style: none;
     padding: 0;
@@ -419,6 +438,7 @@ abbr:hover {
     max-width: 1200px;
     width: 90%;
     border-radius: 15px;
+    transition: transform 0.3s ease;
     box-shadow: 2px 2px 90px var(--container-shadow-color);
 }
 .grid {
