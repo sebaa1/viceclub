@@ -47,12 +47,12 @@ h2, h3 {
     background-color: #faf6f6;
 }
 .menu-content {
-    background-color: #135519ec;
+    background-color: #004e07;
+    box-shadow: 0px 8px 16px 0px #000000f7;
 }
 .menu-content a {
     color: #ffffff;
     font-family: "Bank Gothic";
-    font-size: 1rem;
 }
 .menu-content a.active {
     color: #52f10e;

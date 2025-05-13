@@ -10,8 +10,8 @@ body::before {
     filter: blur(10px);
 }
 h2 {
-    color: #b55582;
-    text-shadow: 3px 3px 0 #040403;
+    color: #ffffff;
+    text-shadow: -3px 0 #db94b7, 0 3px #db94b7, 3px 0 #db94b7, 0 -3px #db94b7;
 }
 h2, h3 {
     font-family: "Geneva";
@@ -23,22 +23,22 @@ h2, h3 {
     filter: drop-shadow(1px -10px 30px #801f94);
 }
 .hamburger {
-    border: 3px solid #47a7df;
-    box-shadow: 1px 1px 70px #801f94
+    border: 3px solid #177eba;
+    box-shadow: 1px 1px 70px #23002a
 }
 .line {
-    background-color: #c7e9ee;
+    background-color: #ffffff;
 }
 .menu-content {
-    background-color: #971d5adb;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #b4359a;
+    box-shadow: 0px 8px 16px 0px #000000;
 }
 .menu-content a {
     color: #ffffff;
     font-family: "Geneva";
 }
 .menu-content a.active {
-    color: #ef74f3;
+    color: #00b3ff;
 }
 .dropdown-content {
     background-color: #a13baad9;
@@ -82,7 +82,7 @@ abbr {
     border-bottom: 2px solid #073e75;
 }
 .container {
-    background-color: #fb58fbd7;
+    background-color: #cc7ff5d7;
 }
 .radio-container img {
     background-color: #9c5bda;

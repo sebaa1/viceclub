@@ -41,8 +41,8 @@ h2, h3 {
     background-color: #cfcece;
 }
 .menu-content {
-    background-color: #403e3ef6;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #403e3e;
+    box-shadow: 0px 8px 16px 0px #000000;
 }
 .menu-content a {
     color: #6b6666;

@@ -48,8 +48,8 @@ h2, h3 {
     background-color: #ffffff;
 }
 .menu-content {
-    background-color: #20193adc;
-    box-shadow: 0px 8px 16px 0px #00000033;
+    background-color: #0e013a;
+    box-shadow: 0px 8px 16px 0px #000000b8;
 }
 .menu-content a {
     color: #ffffff;
@@ -59,8 +59,8 @@ h2, h3 {
     color: #e8a701;
 }
 .dropdown-content {
-    background-color: #293542ee;
-    box-shadow: 0px 8px 16px 0px #e8a70196;
+    background-color: #072c53f7;
+    box-shadow: 0px 8px 16px 0px #e8a701;
 }
 .anchor, .anchor:visited {
     color: #e8a701;

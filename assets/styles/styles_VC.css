@@ -3,7 +3,7 @@
     src: url("../fonts/SF\ Arborcrest.ttf");
 }
 :root {
-    --container-shadow-color: #020c0e;
+    --container-shadow-color: #012026;
 }
 body::before {
     background-image: url(../images/fondo_vc.webp);
@@ -15,6 +15,9 @@ h2 {
 }
 #radio-title {
     text-shadow: 3px 3px 0 #1a1418;
+}
+.container h2 {
+    text-shadow: 3px 3px 4px #030002;
 }
 h2, h3 {
     font-family: "Arborcrest";
@@ -50,12 +53,12 @@ h2, h3 {
     background-color: #faf6f6;
 }
 .menu-content {
-    background-color: #f230d5e1;
+    background-color: #f230d5;
+    box-shadow: 0px 8px 16px 0px #000000b8;
 }
 .menu-content a {
     color: #000000;
     font-family: "Arborcrest";
-    font-size: 1rem;
 }
 .menu-content a.active {
     color: #00ffea;
@@ -95,7 +98,7 @@ abbr {
     border-bottom: 2px solid #b65ab9;
 }
 .container {
-    background-color: #ae35f9c1;
+    background-color: #0aaeefaa;
 }
 .radio-container img {
     background-color: #eba3f1;

@@ -3,7 +3,7 @@
     src: url("../fonts/Chalet.otf");
 }
 :root {
-    --container-shadow-color: #0be2ac;
+    --container-shadow-color: #025a44;
     }
 body::before {
     background-image: url(../images/fondo_v.webp);
@@ -11,7 +11,7 @@ body::before {
 }
 h2 {
     color: #ffffff;
-    text-shadow: -3px 1px 0 #045e2c;
+    text-shadow: -3px 1px 0 #040c08;
 }
 h2, h3 {
     font-family: "Chalet";
@@ -31,29 +31,30 @@ h2, h3 {
     filter: drop-shadow(1px -10px 30px #1005ac);
 }
 .hamburger {
-    border: 3px solid #12a9b1;
+    border: 3px solid #2b728a7d;
     box-shadow: 1px 1px 70px #1005ac
 }
 .line {
-    background-color: #000000;
+    background-color: #e2f0db;
 }
 .menu-content {
-    background-color: #163e11de;
+    background-color: #0ca623;
+    box-shadow: 0px 8px 16px 0px #000000;
 }
 .menu-content a {
     color: #ffffff;
     font-family: "Chalet";
 }
 .menu-content a.active {
-    color: #84d663;
+    color: #90c2e3;
 }
 .dropdown-content {
     background-image: linear-gradient(270deg, #74bc72ef, #4eb7d1ef, #f1905cef);
     box-shadow: 0px 8px 16px 0px #76f851;
 }
 .anchor, .anchor:visited {
-    color: #488352;
-    text-shadow: 3px 3px 0 #abf79f;
+    color: #0ca623;
+    text-shadow: 3px 3px 0 #032600;
 }
 .ficha-tecnica {
     border: 3px solid #000000;
@@ -77,13 +78,14 @@ abbr {
     border-bottom: 2px solid #073e75;
 }
 .container {
-    background-color: #42b74cc7;
+    background-color: #90c2e3;
 }
 .radio-container img {
     background-color: #034b1b;
 }
 .radio-container img:hover {
-    background-image: linear-gradient( #257941fd, #00000075);
+    background-image: linear-gradient( #063114fd, #03ff29);
+    transition: 1s ease;
 }
 footer {
     background: linear-gradient(#98d6a5fd, #1f1e1fc9);

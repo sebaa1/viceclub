@@ -154,9 +154,6 @@ body::before {
     z-index: -1;
     transform: scale(1.1);
 }
-body {
-    margin-top: 80px;
-}
 h2 {
     font-size: 2.2rem;
     text-align: center;
@@ -199,7 +196,7 @@ h2 {
 .hamburger {
     background: none;
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 0.1rem;
     margin-right: 4px;
     border-radius: 6px;
 }
@@ -215,40 +212,42 @@ h2 {
 }
 .menu-content {
     position: absolute;
-    height: 85vh;
-    width: 190%;
+    height: auto;
+    width: 250px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
     right: 0;
     top: 150%;
     padding: 10px 20px;
-    z-index: 1000;
-    border-radius: 12px;
+    border-radius: 10px;
     border: 3px solid #000000;
     margin: 8px 3px;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
-
+    display: flex;
+    flex-direction: column;
 }
 .menu-content.show {
     opacity: 1;
     transform: scale(1);
     visibility: visible;
     pointer-events: auto;
-
 }
+
 .menu-content ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 .menu-content li {
     padding: 10px 0;
-    margin-top: 20px;
 }
 .menu-content a {
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 20px;
 }
 .dropdown-content {
     display: flex;
@@ -407,15 +406,23 @@ abbr:hover {
     list-style: none;
 }
 
+.container.menu-shift {
+    transform: translateX(-150px); /* o el ancho de tu menú */
+    transition: transform 0.3s ease;
+}
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin: 90px auto;
-    padding: 15px;
+    margin: 0 auto;
+    padding-top: 60px;
     max-width: 1200px;
     width: 90%;
     border-radius: 15px;
     box-shadow: 2px 2px 90px var(--container-shadow-color);
+}
+.grid {
+    display: grid
 }
 #container {
     flex-direction: row;
