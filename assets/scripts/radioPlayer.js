@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeCurrent = document.getElementById('timeCurrent');
 
     let currentAudio = null;
-    let lastTrackText = ''; // Para evitar reiniciar la animación innecesariamente
+    let lastTrackText = '';
 
     radioTitle.textContent = data.title;
     console.log('Título establecido:', data.title);
@@ -85,10 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         const newTrackText = `${currentSong.artist} - ${currentSong.song}`;
-        if (newTrackText !== lastTrackText) { // Solo actualizar si el texto cambió
+        if (newTrackText !== lastTrackText) { 
             currentTrack.textContent = newTrackText;
             lastTrackText = newTrackText;
-            animateTrackText(); // Iniciar animación solo cuando cambie el texto
+            animateTrackText(); 
         }
     }
 
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (!trackElement || !container) return;
 
-        // Cancelar animación previa
+        
         cancelAnimationFrame(trackElement.animationFrame);
 
         const containerWidth = container.offsetWidth;
@@ -120,29 +120,29 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const distance = textWidth - containerWidth;
-        const duration = 5000; // Duración en milisegundos para ir de un extremo a otro (ajustable)
+        const duration = 5000;
         let startTime = null;
 
         function scroll(timestamp) {
             if (!startTime) startTime = timestamp;
             const elapsed = timestamp - startTime;
 
-            // Calcular la posición basada en el tiempo transcurrido
-            const cycleTime = duration * 4; // Ida, pausa, vuelta, pausa
+            
+            const cycleTime = duration * 4; 
             const progress = (elapsed % cycleTime) / duration;
 
             let position;
             if (progress <= 1) {
-                // Mover a la izquierda
+                
                 position = -distance * progress;
             } else if (progress <= 2) {
-                // Pausa en el extremo izquierdo
+            
                 position = -distance;
             } else if (progress <= 3) {
-                // Volver a la derecha
+            
                 position = -distance * (2 - progress);
             } else {
-                // Pausa en el inicio
+            
                 position = 0;
             }
 

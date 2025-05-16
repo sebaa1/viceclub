@@ -40,7 +40,7 @@ body::before {
 }
 .block {
     margin-top: calc(10px + 50px);
-    width: 50%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     background-color: #371c33ea;
@@ -59,11 +59,11 @@ body::before {
     text-decoration: none;
 }
 .block a:visited {
-    color: rgb(222, 171, 216);
+    color: #deabd8;
     text-decoration: none;
 }
 .block a:hover {
-    color: rgb(228, 171, 216);
+    color: #e4abd8;
     text-decoration: underline;
 }
 .text-container h1 {
@@ -149,12 +149,12 @@ h1, h2, h3, a {
     border-color: #f1ec65;
     border-style: solid;
     border-radius: 6px;
-    box-shadow: 2px 2px 50px rgba(123, 37, 131, 1);
+    box-shadow: 2px 2px 50px #7b2583;
 }
 .division {
     width: 100%;
     height: 1px;
-    background-color:rgb(236, 174, 223);
+    background-color:#ecaedf;
     border-radius: 50px;
     margin: 15px 0;
 }

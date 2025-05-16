@@ -7,17 +7,10 @@
 }
 body::before {
     background-image: url(../images/fondo_vc.webp);
-    filter: blur(4px);
-}
-h2 {
-    color: #f900aa;
-    text-shadow: -1px -1px 0 #232121;
+    filter: blur(5px);
 }
 #radio-title {
     text-shadow: 3px 3px 0 #1a1418;
-}
-.container h2 {
-    text-shadow: 3px 3px 4px #030002;
 }
 h2, h3 {
     font-family: "Arborcrest";
@@ -40,20 +33,20 @@ h2, h3 {
     background-color: #1110103b;
 }
 .header {
-    background-color: #dc6ec4;
+    background-color: #f085d9;
 }
 .header-img {
     filter: drop-shadow(1px -10px 30px #330147);
 }
 .hamburger {
-    border: 3px solid #d4acd1;
-    box-shadow: 1px 1px 70px #330147;
+    border: 3px solid #dc6ec4;
+    box-shadow: 1px 1px 70px #040005;
 }
 .line {
     background-color: #faf6f6;
 }
 .menu-content {
-    background-color: #f230d5;
+    background-color: #f085d9;
     box-shadow: 0px 8px 16px 0px #000000b8;
 }
 .menu-content a {
@@ -64,7 +57,7 @@ h2, h3 {
     color: #00ffea;
 }
 .dropdown-content {
-    background-color: #822d8af1;
+    background-color: #822d8afa;
     box-shadow: 0px 8px 16px 0px #dba8ff;
 }
 .anchor, .anchor:visited {
@@ -73,32 +66,28 @@ h2, h3 {
 }
 .ficha-tecnica {
     border: 3px solid #000000;
-    background-color: #e06deb;
-}
-.ficha-tecnica h2 {
-    color: #ff0ab5;
-    text-shadow: 3px 3px 2px #0f0b0b;
+    background-color: #dd37ec9f;
 }
 .ficha-tecnica th {
-    border-right: 3px solid #000000;
-    background-color: #f93aa9;
+    border-right: 4px solid #5b0267;
+    background-color: #f93aa941;
 }
 .ficha-tecnica td, .ficha-tecnica th {
     border-top: 1px solid #000000d8;
 }
-.ficha-tecnica .titulo {
-    color: #80085a;
-    text-shadow: 2px 2px 3px #e09ce0;
+.ficha-tecnica .titulo, .container h2 {
+    color: #f08bbd;
+    text-shadow: 3px 3px 0 #000000;
 }
 abbr {
     font-family: "Arborcrest";
-    color: #99036c;
+    color: #ffffff;
 }
 .release-date ul {
-    border-bottom: 2px solid #b65ab9;
+    border-bottom: 2px solid #fb03ce;
 }
 .container {
-    background-color: #0aaeefaa;
+    background-color: #0aaeefcc;
 }
 .radio-container img {
     background-color: #eba3f1;
@@ -116,11 +105,11 @@ abbr {
     margin-left: 150px;
 }
 footer {
-    background: linear-gradient(180deg, #ee62d0fd, #f0bae4);
+    background: linear-gradient(180deg, #ee62d0, #bb76ac);
 }
 #playingImage {
-    border: 3px solid #cc00f5;
-    background-color: #ffffff;
+    border: 3px solid #b60aef88;
+    background-color: #eaa3f179;
 }
 #progressBarContainer {
     background-color: #ffffff;

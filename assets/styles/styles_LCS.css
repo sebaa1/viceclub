@@ -10,16 +10,16 @@ body::before {
     filter: blur(5px);
 }
 h2 {
-    color: #e81b25;
-    text-shadow: 3px 3px 0 #040401;
+    color: #ff000d;
+    text-shadow: 3px 3px 3px #040401;
 }
 h2, h3 {
     font-family: "Eurostyle";
 }
 .trucos h3, .trucos-active h3 {
-    color: #e8a701;
+    color: #f70909;
     text-decoration: underline;
-    text-shadow: 3px 3px 0 #040401;
+    text-shadow: 3px 3px 10px #040401;
 }
 .trucos ul {
     background-color: #6166ac11;
@@ -28,11 +28,11 @@ h2, h3 {
     background-color: #4b0202
 }
 .header-img {
-    filter: drop-shadow(1px -10px 30px #ff7070);
+    filter: drop-shadow(1px -10px 30px #efadad);
 }
 .hamburger {
     border: 3px solid #f50909;
-    box-shadow: 1px 1px 70px #ff7070;
+    box-shadow: 1px 1px 70px #efadad;
 }
 .line {
     background-color: #ffffff;
@@ -53,15 +53,15 @@ h2, h3 {
     box-shadow: 0px 8px 16px 0px #000000;
 }
 .anchor, .anchor:visited {
-    color: #f5b2b5;
-    text-shadow: 3px 3px 0 #191616;
+    color: #db2424;
+    text-shadow: 0px 4px #000000
 }
 .ficha-tecnica {
     border: 3px solid #000000;
     background-color: #f39494;
 }
 .ficha-tecnica h2 {
-    color: #b10a0a;
+    color: #db2424;
     text-shadow: 1px 2px 2px #040401;
 }
 .ficha-tecnica td, .ficha-tecnica th {
@@ -69,7 +69,7 @@ h2, h3 {
 }
 .ficha-tecnica th {
     border-right: 4px solid #750000;
-    background-color: #e16464;
+    background-color: #e164649f;
 }
 .ficha-tecnica .titulo {
     color: #7e0000;
@@ -82,7 +82,7 @@ abbr {
     border-bottom: 2px solid #073e75;
 }
 .container {
-    background-color: #fa7676e7;
+    background-color: #f5b5b5;
 }
 .radio-container {
     grid-template-columns: repeat(3, 240px) !important;
@@ -95,7 +95,7 @@ abbr {
     background-image: linear-gradient( #be3921fd, #00000007);
 }
 footer {
-    background: linear-gradient(#f87867fd, #722f2fe5);
+    background: linear-gradient(#f87867, #722f2f);
 }
 footer p, #timeCurrent {
     color: #ffffff;

@@ -38,7 +38,7 @@ h2, h3 {
     background-color: #e2f0db;
 }
 .menu-content {
-    background-color: #0ca623;
+    background-color: #4e8225;
     box-shadow: 0px 8px 16px 0px #000000;
 }
 .menu-content a {
@@ -58,7 +58,7 @@ h2, h3 {
 }
 .ficha-tecnica {
     border: 3px solid #000000;
-    background-color: #61ce57;
+    background-color: #61ce576e;
 }
 .ficha-tecnica h2 {
     color: #000000;
@@ -67,8 +67,8 @@ h2, h3 {
     border-top: 1px solid #0a0a0a;
 }
 .ficha-tecnica th {
-    border-right: 4px solid #0c4105;
-    background-color: #baffc1;
+    border-right: 4px solid #000000;
+    background-color: #baffc17b;
 }
 abbr {
     font-family: "Chalet";

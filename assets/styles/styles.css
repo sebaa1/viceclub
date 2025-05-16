@@ -6,6 +6,7 @@
 body::before {
     background-image: url(../images/fondo.webp);
     filter: blur(6px);
+    z-index: -1;
 }
 
 .block {
@@ -37,13 +38,10 @@ h3 {
     border-image: linear-gradient(90deg, #dc6ec4, #8749b4) 1;
 }
 h4 {
-    font-size: 2.5rem;
+    font-size: 3.1rem;
     font-family: "Pricedown";
-    color: #343b3a;
-    text-shadow: 3px 3px 0 #e7e7d6;
-    margin: 0;
-    text-align: center;
-    white-space: nowrap;
+    color: #08110f;
+    text-shadow: 3px 3px 5px #e7e7d6;
 }
 h5 {
     font-size: 1.2rem;

@@ -23,7 +23,6 @@ h2, h3 {
 }
 .trucos ul {
     background-color: #61b96644;
-    width: 900px !important;
 }
 .plataforma.selected {
     border: 5px solid #17be1f;
@@ -37,11 +36,11 @@ h2, h3 {
     background-color: #295e16;
 }
 .header-img {
-    filter: drop-shadow(1px -10px 30px #3cff01);
+    filter: drop-shadow(1px -10px 30px #9cf980);
 }
 .hamburger {
-    border: 3px solid #19d426;
-    box-shadow: 1px 1px 70px #3cff01;
+    border: 3px solid #61bb17;
+    box-shadow: 1px 1px 50px #9cf980;
 }
 .line {
     background-color: #faf6f6;
@@ -77,18 +76,18 @@ h2, h3 {
     border-top: 1px solid #042c00d7;
 }
 .ficha-tecnica th {
-    border-right: 3px solid #055a1abe;
+    border-right: 4px solid #228d3d;
     background-color: #56c14e;
 }
 .ficha-tecnica .titulo {
-    color: #272926;
+    color: #000000;
 }
 abbr {
     font-family: "Bank Gothic";
     color:#9dff2d;
 }
 .release-date ul {
-    border-bottom: 2px solid #00631e;
+    border-bottom: 2px solid #0bf050;
 }
 .container {
     background-color: #a2f0abce;
@@ -106,13 +105,13 @@ abbr {
     margin-left: 290px;
 }
 footer {
-    background: linear-gradient(#05b10ec9, #000000be);
+    background: linear-gradient(#05b10e, #1c8804);
 }
 footer p, #timeCurrent {
-    color: #ffffff;
+    color: #000000;
 }
 #playingImage {
-    border: 3px solid #32ff1f;
+    border: 3px solid #14ff6e;
     background-color: #000000;
 }
 #progressBarContainer {

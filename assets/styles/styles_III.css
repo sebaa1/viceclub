@@ -49,7 +49,7 @@ h2, h3 {
 }
 .menu-content {
     background-color: #0e013a;
-    box-shadow: 0px 8px 16px 0px #000000b8;
+    box-shadow: 0px 8px 16px 0px #00000088;
 }
 .menu-content a {
     color: #ffffff;
@@ -68,18 +68,18 @@ h2, h3 {
 }
 .ficha-tecnica {
     border: 3px solid #000000;
-    background-color: #17294c;
+    background-color: #01143b50;
 }
 .ficha-tecnica h2 {
     color: #e8a701;
     text-shadow: 3px 3px 0 #040401;
 }
-.ficha-tecnica td, .ficha-tecnica th {
-    border-top: 1px solid #ffffffd8;
+.ficha-tecnica th, td {
+    border-top: 1px solid #00000087
 }
 .ficha-tecnica th {
-    border-right: 4px solid #a5c5f5e0;
-    background-color: #130b41;
+    border-right: 4px solid #e8a701;
+    background-color: #130b414f;
 }
 .ficha-tecnica .titulo {
     color: #e8a701;
@@ -95,11 +95,12 @@ abbr {
     text-decoration: underline dotted #e8a701;
 }
 .container {
-    background-color: #293561d5;
+    background-color: #293561f6;
 }
 .release-date ul {
-    border-bottom: 2px solid #073e75;
+    border-bottom: 2px solid #41688e;
 }
+
 .radio-container img {
     background-color: #38737e;
 }
@@ -116,20 +117,20 @@ abbr {
     margin-left: 150px;
 }
 footer {
-    background: #0a1f25f5;
+    background: #38737e;
 }
 footer p {
     color: #ffffff;
 }
 #playingImage {
-    border: 3px solid #2083d3;
-    background-color: #020b5e;
+    border: 3px solid #020b5e;
+    background-color: #99d6e179;
 }
 #progressBarContainer {
     background-color: #ffffff;
 }
 #progressBar {
-    background-color: #3612bb;
+    background-color: #020b5e;
 }
 #progressBarContainer:hover #progressThumb {
     background: #162b3d;

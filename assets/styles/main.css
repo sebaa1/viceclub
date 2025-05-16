@@ -1,139 +1,4 @@
-@media screen and (max-width: 720px) {
-    body {
-        margin-top: 140px !important;
-        width: 700px;
-    }
-    .text-container h2 {
-        font-size: 35px !important;
-    }
-    .text-container p, .text-container ul{
-        font-size: 24px;
-    }
-    .text-container {
-        flex: 1;
-        padding: 30px;
-        margin: 0 !important;
-    }
-    .header {
-        height: 120px !important;
-        border-bottom: 2px solid #000000;
-    }
-    .header a, .header h1 {
-        font-size: 3.4rem;
-        margin: 0 !important;
-    }
-    .header img {
-        width: 120px;
-        height: 120px;
-    }
-    .header .hamburger{
-        width: 60px !important;
-        height: 50px !important;
-    }
-    .dropdown-content {
-        height: 140px;
-        top: 12% !important;
-        gap: 25px !important;
-    }
-    .dropdown-content img {
-        height: 70px !important;
-        height: 70px !important;
-    }
-    .navbar {
-        margin-right: 12px;
-    }
-    .hamburger {
-        align-items: center !important;
-        width: 40px !important;
-        height: 40px !important;
-        margin: 0 !important;
-        padding: 5px !important;
-    }
-    .line {
-        width: 35px !important;
-        height: 4px !important;
-    }
-    .menu-content a {
-        font-size: 1.5rem
-    }
-    .ficha-tecnica {
-        max-height: 900px !important;
-        max-width: 200px !important;
-        margin: 10px;
-    }
-    .ficha-tecnica li, .ficha.tecnica th {
-        font-size: 0.8rem !important;
-    }
-    .ficha-tecnica ul {
-        margin: 0;
-    }
-    .ficha-tecnica td, .ficha-tecnica th {
-        border-top: 1px transparent !important;
-        overflow: hidden;
-    }
-    .ficha-tecnica th, .tabla td {
-        max-width: 120px !important;
-        overflow: hidden;
-    }
-    .ficha-tecnica .portada img {
-        width: 90px !important;
-        height: 120px !important;
-        position: relative;
-        right: 20px;
-    }
-    .ficha-tecnica table {
-        width: 130px !important;
-    }
-    .ficha-tecnica .titulo {
-        font-size: 15px !important;
-        overflow: hidden;
-    }
-    .dropdown-content {
-        top: 120px !important;
-        flex-wrap: wrap;
-        padding: 5px;
-    }
-    .dropdown-content img {
-        transform: scale(1.0) !important;
-    }
-    .dropdown-content a {
-        width: 60px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-    }
-    .container {
-        width: 100% !important;
-        display: flex;
-        padding: 0 !important;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: stretch; 
-    }
-    .radio-container {
-        width: 100% !important;
-        height: 700px !important;
-        gap: 30px !important;
-        grid-template-columns: repeat(4, 150px) !important;
-    }
-    footer {
-        height: 150px !important;
-    }
-    footer p {
-        font-size: 26px !important;
-    }
-    #playingImage {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    #progressBarContainer {
-        height: 10px !important;
-        margin: 0 20px
-    }
-    #timeCurrent {
-        font-size: 26px;
-    }
-}
+
 @font-face {
     font-family: "Pricedown";
     src: url("../fonts/Pricedown.otf");
@@ -151,7 +16,6 @@ body::before {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    z-index: -1;
     transform: scale(1.1);
 }
 h2 {
@@ -160,12 +24,6 @@ h2 {
 }
 .bold {
     font-weight: bolder;
-}
-.navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: relative;
 }
 .header {
     display: flex;
@@ -180,7 +38,6 @@ h2 {
     z-index: 1;
 }
 .header-img {
-    display: block;
     height: 70px;
 }
 .header-img:hover {
@@ -188,17 +45,12 @@ h2 {
     transition: 0.5s ease;
     transform: scale(1.1);
 }
-.header-container {
-    display: flex;
-    align-items: center;
-    flex: 0 0 auto;
-}
 .hamburger {
     background: none;
     cursor: pointer;
-    padding: 0.1rem;
+    padding: 2px;
     margin-right: 4px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .hamburger:hover {
     transform: scale(1.1);
@@ -209,7 +61,7 @@ h2 {
     width: 25px;
     height: 3px;
     margin: 4px;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 
 .hamburger.active .line:nth-child(1) {
@@ -233,7 +85,7 @@ h2 {
     right: 0;
     top: 150%;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 3px solid #000000;
     margin: 8px 3px;
     opacity: 0;
@@ -252,9 +104,9 @@ h2 {
     transition: opacity 0.3s ease, transform 0.3s ease; 
 }
 .menu-content.hide {
-  visibility: hidden;
-  pointer-events: none;
-  transition: visibility 0s 0.3s; /* Espera el fin de la animación */
+    visibility: hidden;
+    pointer-events: none;
+    transition: visibility 0s 0.3s;
 }
 .menu-content ul {
     list-style: none;
@@ -275,9 +127,9 @@ h2 {
     visibility: hidden;
     pointer-events: none;
     position: fixed;
-    margin: 2px;
+    margin: 4px;
     border-radius: 40px;
-    top: 70px;
+    top: 65px;
     left: 0;
     width: 100%;
     flex-direction: row;
@@ -312,7 +164,7 @@ h2 {
     color: transparent
 }
 .anchor, .anchor:visited {
-    font-size: 2.5rem;
+    font-size: 3.1rem;
     font-family: "Pricedown";
     margin: 0;
     grid-column: 2;
@@ -359,7 +211,7 @@ h2 {
     border-radius: 15px;
     padding: 20px;
     width: fit-content;
-    margin: 40px auto;
+    margin: 10px auto 40px auto;
 }
 .imagen-plataforma {
     display: flex;
@@ -376,20 +228,15 @@ h2 {
 }
 .ficha-tecnica {
     border-radius: 6px;
-    margin: 40px;
-}
-.ficha-tecnica h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-align: center;
+    margin: 10px;
+    box-shadow: #000000 0px 0px 4px;
 }
 .ficha-tecnica .portada img {
-    max-width: 80%;
-    max-height: 80%;
-    width: 300px;
+    width: 290px;
     border-radius: 8px;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    box-shadow: #000000 0px 0px 10px;
 }
 .ficha-tecnica table {
     width: 350px;
@@ -400,33 +247,28 @@ h2 {
 }
 .ficha-tecnica ul {
     padding: 0;
-    margin-left: 20px
+    text-align: center;
 }
 .ficha-tecnica .titulo {
     font-size: 1.3rem;
     margin-bottom: 10px;
-    margin-left: 10px;
     font-weight: bold;
+    text-align: center;
 }
-.ficha-tecnica td:first-child {
-    border-top: none;
+.release-date ul:last-of-type {
+    border-bottom: none
 }
 abbr {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 abbr:hover {
     cursor: help;
 }
-.tabla {
-    padding: 4px;
-    margin-bottom: 10px;
-}
 .ficha-tecnica li, .trucos li {
     list-style: none;
 }
-
 .container.menu-shift {
-    transform: translateX(-150px); /* o el ancho de tu menú */
+    transform: translateX(-150px); 
     transition: transform 0.3s ease;
 }
 .container {
@@ -561,16 +403,15 @@ footer.hidden {
     margin: 6px
 }
 #currentTrackWrapper {
-    width: 230px; /* Ancho fijo del contenedor */
-    overflow: hidden; /* Recorta el texto que excede el contenedor */
-    position: relative; /* Para posicionamiento relativo */
+    width: 230px; 
+    overflow: hidden;
+    position: relative; 
 }
 
 #currentTrack {
-    display: inline-block; /* Necesario para la transformación */
-    white-space: nowrap; /* Evita que el texto se divida en líneas */
-    position: relative; /* Para que se mueva dentro del contenedor */
-    /* Quitamos overflow: hidden y max-width: 100% */
+    display: inline-block;
+    white-space: nowrap; 
+    position: relative; 
 }
 
 .footer-content {
@@ -599,20 +440,20 @@ footer.hidden {
     border: 3px solid #111;
 }
 .reference-box {
-    background-color: #5989f0; /* Fondo blanco */
-    padding: 10px;           /* Espaciado interno */
+    background-color: #5989f0; 
+    padding: 10px;
     border: 2px solid;
-    border-radius: 5px;      /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
-    font-family: Arial, sans-serif; /* Fuente */
-    font-size: 14px;         /* Tamaño de fuente */
-    color: #333;             /* Color del texto */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #0000004d;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
 }
 .reference-box h4 {
-    margin-top: 0;           /* Sin margen superior */
-    font-size: 16px;         /* Tamaño de fuente del título */
-    color: #05284e;          /* Color del título */
+    margin-top: 0;
+    font-size: 16px; 
+    color: #05284e;
 }
 .reference-box p {
-    margin: 5px 0;           /* Margen entre párrafos */
+    margin: 5px 0;
 }
