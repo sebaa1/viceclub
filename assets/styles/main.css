@@ -17,6 +17,7 @@ body::before {
     background-size: cover;
     background-attachment: fixed;
     transform: scale(1.1);
+    z-index: -1;
 }
 h2 {
     font-size: 2.2rem;
