@@ -6,7 +6,7 @@
     --container-shadow-color: #1c1c1d;
     }
 body::before {
-    background-image: url(../images/fondo_iv.webp);
+    background-image: url(../images/inicio/fondo_iv.webp);
     filter: blur(9px);
 }
 body {
@@ -27,6 +27,12 @@ h2, h3 {
 .trucos ul {
     background-color: #6166ac11;
 }
+.cheat-title {
+    width: 160px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
 .header {
     background-color: #464646
 }
@@ -35,10 +41,11 @@ h2, h3 {
 }
 .hamburger {
     border: 3px solid #ffffff;
-    
+    background-color: #ffffff70;
+    box-shadow: 1px 1px 50px #ffffff;
 }
 .line {
-    background-color: #cfcece;
+    background-color: #ffffff;
 }
 .menu-content {
     background-color: #403e3e;

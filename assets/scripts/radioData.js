@@ -1,10 +1,10 @@
 const radioData = {
     "gta-iii": {
-        title: 'Radios de GTA III',
+        title: 'Radios de Grand Theft Auto III',
         stations: [
             {
                 name: 'Head Radio',
-                image: '../assets/images/headradio.webp',
+                image: '../assets/images/radios/headradio.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Head+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -25,7 +25,7 @@ const radioData = {
             },
             {
                 name: 'Double Clef FM',
-                image: '../assets/images/doublecleff.webp',
+                image: '../assets/images/radios/doublecleff.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Double+Clef+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -44,7 +44,7 @@ const radioData = {
             },
             {
                 name: 'K-JAH Radio',
-                image: '../assets/images/k-jah.webp',
+                image: '../assets/images/radios/k-jah.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/K-JAH+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -61,7 +61,7 @@ const radioData = {
             },
             {
                 name: 'Lips 106',
-                image: '../assets/images/lips.webp',
+                image: '../assets/images/radios/lips.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Lips+106.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -81,7 +81,7 @@ const radioData = {
             },
             {
                 name: 'Game Radio FM',
-                image: '../assets/images/game fm.webp',
+                image: '../assets/images/radios/game_fm.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Game+Radio+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -100,7 +100,7 @@ const radioData = {
             },
             {
                 name: 'MSX FM',
-                image: '../assets/images/msx.webp',
+                image: '../assets/images/radios/msx.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/MSX+FM.mp3',
                 tracks: [
                     { time: 0, song: 'Quagmire', artist: 'Calyx + Timecode'},
@@ -118,7 +118,7 @@ const radioData = {
             },
             {
                 name: 'Flashback FM',
-                image: '../assets/images/flashback.webp',
+                image: '../assets/images/radios/flashback.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Flashback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -136,11 +136,11 @@ const radioData = {
         ]
     },
     "gta-vc": {
-        title: 'Radios de GTA VC',
+        title: 'Radios de Grand Theft Auto: Vice City',
         stations: [
             {
                 name: 'Wildstyle Pirate Radio',
-                image: '../assets/images/wildstyle.webp',
+                image: '../assets/images/radios/wildstyle.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Wildstyle+Pirate+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -150,7 +150,7 @@ const radioData = {
             },
             {
                 name: 'Flash FM',
-                image: '../assets/images/flash.webp',
+                image: '../assets/images/radios/flash.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Flash+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -160,7 +160,7 @@ const radioData = {
             },
             {
                 name: 'Fever 105',
-                image: '../assets/images/fever.webp',
+                image: '../assets/images/radios/fever.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Fever+105.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -170,7 +170,7 @@ const radioData = {
             },
             {
                 name: 'V-Rock',
-                image: '../assets/images/v-rock.webp',
+                image: '../assets/images/radios/v-rock.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/V-Rock.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -180,7 +180,7 @@ const radioData = {
             },
             {
                 name: 'Radio Espantoso',
-                image: '../assets/images/espantoso.webp',
+                image: '../assets/images/radios/espantoso.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Radio+Espantoso.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -190,7 +190,7 @@ const radioData = {
             },
             {
                 name: 'Emotion 98.3',
-                image: '../assets/images/emotion.webp',
+                image: '../assets/images/radios/emotion.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Emotion+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -200,7 +200,7 @@ const radioData = {
             },
             {
                 name: 'Wave 103',
-                image: '../assets/images/wave.webp',
+                image: '../assets/images/radios/wave.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VC/Wave+103.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -211,11 +211,11 @@ const radioData = {
         ]
     },
     "gta-sa": {
-        title: 'Radios de GTA SA',
+        title: 'Radios de Grand Theft Auto: San Andreas',
         stations: [
             {
                 name: 'Playback FM',
-                image: '../assets/images/playback.webp',
+                image: '../assets/images/radios/playback.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Playback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -225,7 +225,7 @@ const radioData = {
             },
             {
                 name: 'K-Rose',
-                image: '../assets/images/k-rose.webp',
+                image: '../assets/images/radios/k-rose.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-Rose.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -234,7 +234,7 @@ const radioData = {
             },
             {
                 name: 'K-DST',
-                image: '../assets/images/k-dst.webp',
+                image: '../assets/images/radios/k-dst.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-DST.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -243,7 +243,7 @@ const radioData = {
             },
             {
                 name: 'Bounce FM',
-                image: '../assets/images/bounce.webp',
+                image: '../assets/images/radios/bounce.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Bounce+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -252,7 +252,7 @@ const radioData = {
             },
             {
                 name: 'SF-UR',
-                image: '../assets/images/sfur.webp',
+                image: '../assets/images/radios/sfur.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/SF-UR.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -261,7 +261,7 @@ const radioData = {
             },
             {
                 name: 'Radio Los Santos',
-                image: '../assets/images/rls.webp',
+                image: '../assets/images/radios/rls.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+Los+Santos.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -270,7 +270,7 @@ const radioData = {
             },
             {
                 name: 'Radio X',
-                image: '../assets/images/radio_x.webp',
+                image: '../assets/images/radios/radio_x.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+X.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -279,7 +279,7 @@ const radioData = {
             },
             {
                 name: 'CSR 103.9',
-                image: '../assets/images/csr.webp',
+                image: '../assets/images/radios/csr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/CSR+103.9.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -288,7 +288,7 @@ const radioData = {
             },
             {
                 name: 'K-JAH West',
-                image: '../assets/images/k-jah_w.webp',
+                image: '../assets/images/radios/k-jah_w.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-JAH+West.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -297,7 +297,7 @@ const radioData = {
             },
             {
                 name: 'Master Sounds 98.3',
-                image: '../assets/images/master.webp',
+                image: '../assets/images/radios/master.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -307,11 +307,11 @@ const radioData = {
         ]
     },
     "gta-lcs": {
-        title: 'Radios de GTA LCS',
+        title: 'Radios de Grand Theft Auto: Liberty City Stories',
         stations: [
             {
                 name: 'Head Radio',
-                image: '../assets/images/head_lcs.webp',
+                image: '../assets/images/radios/head_lcs.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Head+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -321,7 +321,7 @@ const radioData = {
             },
             {
                 name: 'Double Clef FM',
-                image: '../assets/images/clef_lcs.webp',
+                image: '../assets/images/radios/clef_lcs.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Double+Clef+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -330,7 +330,7 @@ const radioData = {
             },
             {
                 name: 'K-JAH Radio',
-                image: '../assets/images/k-jah_lcs.webp',
+                image: '../assets/images/radios/k-jah_lcs.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/K-JAH+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -339,7 +339,7 @@ const radioData = {
             },
             {
                 name: 'Rise FM',
-                image: '../assets/images/rise.webp',
+                image: '../assets/images/radios/rise.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Rise+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -348,7 +348,7 @@ const radioData = {
             },
             {
                 name: 'Lips 106',
-                image: '../assets/images/lips.webp',
+                image: '../assets/images/radios/lips.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Lips+106.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -357,7 +357,7 @@ const radioData = {
             },
             {
                 name: 'Radio Del Mundo',
-                image: '../assets/images/rdm.webp',
+                image: '../assets/images/radios/rdm.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Radio+Del+Mundo.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -366,7 +366,7 @@ const radioData = {
             },
             {
                 name: 'MSX 98',
-                image: '../assets/images/msx98.webp',
+                image: '../assets/images/radios/msx98.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/MSX+98.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -375,7 +375,7 @@ const radioData = {
             },
             {
                 name: 'Flashback FM',
-                image: '../assets/images/flashback_lcs.webp',
+                image: '../assets/images/radios/flashback_lcs.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Flashback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -384,7 +384,7 @@ const radioData = {
             },
             {
                 name: 'The Liberty Jam',
-                image: '../assets/images/tlj.webp',
+                image: '../assets/images/radios/tlj.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/The+Liberty+Jam.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -394,11 +394,11 @@ const radioData = {
         ]
     },
     "gta-vcs": {
-        title: 'Radios de GTA LCS',
+        title: 'Radios de Grand Theft Auto: Vice City Stories',
         stations: [
             {
                 name: 'Flash FM',
-                image: '../assets/images/flash.webp',
+                image: '../assets/images/radios/flash.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VCS/Flash+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -408,7 +408,7 @@ const radioData = {
             },
             {
                 name: 'V-Rock',
-                image: '../assets/images/v-rock.webp',
+                image: '../assets/images/radios/v-rock.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/VCS/V-Rock.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -417,7 +417,7 @@ const radioData = {
             },
             {
                 name: 'Paradise FM',
-                image: '../assets/images/paradise.webp',
+                image: '../assets/images/radios/paradise.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/K-JAH+Radio.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -426,7 +426,7 @@ const radioData = {
             },
             {
                 name: 'VCFL',
-                image: '../assets/images/vcfl.webp',
+                image: '../assets/images/radios/vcfl.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Rise+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -435,7 +435,7 @@ const radioData = {
             },
             {
                 name: 'Wave 103',
-                image: '../assets/images/wave.webp',
+                image: '../assets/images/radios/wave.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Lips+106.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -444,7 +444,7 @@ const radioData = {
             },
             {
                 name: 'Fresh 105 FM',
-                image: '../assets/images/fresh.webp',
+                image: '../assets/images/radios/fresh.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Radio+Del+Mundo.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -453,7 +453,7 @@ const radioData = {
             },
             {
                 name: 'Radio Espantoso',
-                image: '../assets/images/espantoso_vcs.webp',
+                image: '../assets/images/radios/espantoso_vcs.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/MSX+98.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -462,7 +462,7 @@ const radioData = {
             },
             {
                 name: 'Emotion 98.3',
-                image: '../assets/images/emotion.webp',
+                image: '../assets/images/radios/emotion.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/LCS/Flashback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -472,11 +472,11 @@ const radioData = {
         ]
     },
     "gta-iv": {
-        title: 'Radios de GTA IV',
+        title: 'Radios de Grand Theft Auto IV',
         stations: [
             {
                 name: 'The Beat 102.7',
-                image: '../assets/images/beat.webp',
+                image: '../assets/images/radios/beat.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Playback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -486,7 +486,7 @@ const radioData = {
             },
             {
                 name: 'The Classics 104.1',
-                image: '../assets/images/classics.webp',
+                image: '../assets/images/radios/classics.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-Rose.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -495,7 +495,7 @@ const radioData = {
             },
             {
                 name: 'Electro-Choc',
-                image: '../assets/images/echoc.webp',
+                image: '../assets/images/radios/echoc.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-DST.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -504,7 +504,7 @@ const radioData = {
             },
             {
                 name: 'Fusion FM',
-                image: '../assets/images/fusion.webp',
+                image: '../assets/images/radios/fusion.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Bounce+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -513,7 +513,7 @@ const radioData = {
             },
             {
                 name: 'IF99',
-                image: '../assets/images/if99.webp',
+                image: '../assets/images/radios/if99.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/SF-UR.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -522,7 +522,7 @@ const radioData = {
             },
             {
                 name: 'Jazz Nation Radio 108.5',
-                image: '../assets/images/jnr.webp',
+                image: '../assets/images/radios/jnr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+Los+Santos.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -531,7 +531,7 @@ const radioData = {
             },
             {
                 name: 'The Journey',
-                image: '../assets/images/journey.webp',
+                image: '../assets/images/radios/journey.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+X.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -540,7 +540,7 @@ const radioData = {
             },
             {
                 name: 'K109 The Studio',
-                image: '../assets/images/k109.webp',
+                image: '../assets/images/radios/k109.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/CSR+103.9.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -549,7 +549,7 @@ const radioData = {
             },
             {
                 name: 'Liberty City Hardcore',
-                image: '../assets/images/lchc.webp',
+                image: '../assets/images/radios/lchc.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-JAH+West.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -558,7 +558,7 @@ const radioData = {
             },
             {
                 name: 'Liberty Rock Radio',
-                image: '../assets/images/lrr.webp',
+                image: '../assets/images/radios/lrr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -567,7 +567,7 @@ const radioData = {
             },
             {
                 name: 'Massive B Soundsystem 96.9',
-                image: '../assets/images/massive.webp',
+                image: '../assets/images/radios/massive.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -576,7 +576,7 @@ const radioData = {
             },
             {
                 name: 'Radio Broker',
-                image: '../assets/images/broker.webp',
+                image: '../assets/images/radios/broker.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -585,7 +585,7 @@ const radioData = {
             },
             {
                 name: 'RamJam FM',
-                image: '../assets/images/ram.webp',
+                image: '../assets/images/radios/ram.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -594,7 +594,7 @@ const radioData = {
             },
             {
                 name: 'San Juan Sounds',
-                image: '../assets/images/sanjuan.webp',
+                image: '../assets/images/radios/sanjuan.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -603,7 +603,7 @@ const radioData = {
             },
             {
                 name: 'Self-Actualization FM',
-                image: '../assets/images/self.webp',
+                image: '../assets/images/radios/self.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -612,7 +612,7 @@ const radioData = {
             },
             {
                 name: 'Tuff Gong Radio',
-                image: '../assets/images/tuff.webp',
+                image: '../assets/images/radios/tuff.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -621,7 +621,7 @@ const radioData = {
             },
             {
                 name: 'The Vibe 98.8',
-                image: '../assets/images/vibe.webp',
+                image: '../assets/images/radios/vibe.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -630,7 +630,7 @@ const radioData = {
             },
             {
                 name: 'Vice City FM',
-                image: '../assets/images/vice.webp',
+                image: '../assets/images/radios/vice.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -639,7 +639,7 @@ const radioData = {
             },
             {
                 name: 'Vladivostok FM',
-                image: '../assets/images/vlad.webp',
+                image: '../assets/images/radios/vlad.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -649,11 +649,11 @@ const radioData = {
         ]
     },
     "gta-v": {
-        title: 'Radios de GTA V',
+        title: 'Radios de Grand Theft Auto V',
         stations: [
             {
                 name: 'West Coast Classics',
-                image: '../assets/images/wcc.webp',
+                image: '../assets/images/radios/wcc.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Playback+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -663,7 +663,7 @@ const radioData = {
             },
             {
                 name: 'East Los FM',
-                image: '../assets/images/east.webp',
+                image: '../assets/images/radios/east.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-Rose.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -672,7 +672,7 @@ const radioData = {
             },
             {
                 name: 'Soulwax FM',
-                image: '../assets/images/soulwax.webp',
+                image: '../assets/images/radios/soulwax.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-DST.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -681,7 +681,7 @@ const radioData = {
             },
             {
                 name: 'Rebel Radio',
-                image: '../assets/images/rebel.webp',
+                image: '../assets/images/radios/rebel.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Bounce+FM.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -690,7 +690,7 @@ const radioData = {
             },
             {
                 name: 'Channel X',
-                image: '../assets/images/channel.webp',
+                image: '../assets/images/radios/channel.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/SF-UR.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -699,7 +699,7 @@ const radioData = {
             },
             {
                 name: 'Radio Los Santos',
-                image: '../assets/images/rls_v.webp',
+                image: '../assets/images/radios/rls_v.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+Los+Santos.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -708,7 +708,7 @@ const radioData = {
             },
             {
                 name: 'Non-Stop-Pop FM',
-                image: '../assets/images/nsp.webp',
+                image: '../assets/images/radios/nsp.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Radio+X.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -717,7 +717,7 @@ const radioData = {
             },
             {
                 name: 'Los Santos Rock Radio',
-                image: '../assets/images/lsrr.webp',
+                image: '../assets/images/radios/lsrr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/CSR+103.9.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -726,7 +726,7 @@ const radioData = {
             },
             {
                 name: 'Still Slipping Los Santos',
-                image: '../assets/images/ssls.webp',
+                image: '../assets/images/radios/ssls.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/K-JAH+West.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -735,7 +735,7 @@ const radioData = {
             },
             {
                 name: 'iFruit Radio',
-                image: '../assets/images/ifruit.webp',
+                image: '../assets/images/radios/ifruit.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -744,7 +744,7 @@ const radioData = {
             },
             {
                 name: 'Los Santos Underground Radio',
-                image: '../assets/images/lsur.webp',
+                image: '../assets/images/radios/lsur.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -753,7 +753,7 @@ const radioData = {
             },
             {
                 name: 'blonded Los Santos 97.8 FM',
-                image: '../assets/images/blonded.webp',
+                image: '../assets/images/radios/blonded.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -762,7 +762,7 @@ const radioData = {
             },
             {
                 name: 'Vinewood Boulevard Radio',
-                image: '../assets/images/vbr.webp',
+                image: '../assets/images/radios/vbr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -771,7 +771,7 @@ const radioData = {
             },
             {
                 name: 'Space 103.2',
-                image: '../assets/images/space.webp',
+                image: '../assets/images/radios/space.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -780,7 +780,7 @@ const radioData = {
             },
             {
                 name: 'Kult FM',
-                image: '../assets/images/kult.webp',
+                image: '../assets/images/radios/kult.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -789,7 +789,7 @@ const radioData = {
             },
             {
                 name: 'Radio Mirror Park',
-                image: '../assets/images/mirror.webp',
+                image: '../assets/images/radios/mirror.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -798,7 +798,7 @@ const radioData = {
             },
             {
                 name: 'The Lab',
-                image: '../assets/images/lab.webp',
+                image: '../assets/images/radios/lab.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -807,7 +807,7 @@ const radioData = {
             },
             {
                 name: 'The Lowdown 91.1',
-                image: '../assets/images/lowdown.webp',
+                image: '../assets/images/radios/lowdown.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -816,7 +816,7 @@ const radioData = {
             },
             {
                 name: 'FlyLo FM',
-                image: '../assets/images/flylo.webp',
+                image: '../assets/images/radios/flylo.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -825,7 +825,7 @@ const radioData = {
             },
             {
                 name: 'WorldWide FM',
-                image: '../assets/images/ww_fm.webp',
+                image: '../assets/images/radios/ww_fm.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -834,7 +834,7 @@ const radioData = {
             },
             {
                 name: 'The Blue Ark',
-                image: '../assets/images/tba.webp',
+                image: '../assets/images/radios/tba.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -843,7 +843,7 @@ const radioData = {
             },
             {
                 name: 'Music Locker Radio',
-                image: '../assets/images/mlr.webp',
+                image: '../assets/images/radios/mlr.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -852,7 +852,7 @@ const radioData = {
             },
             {
                 name: 'MOTOMAMI Los Santos',
-                image: '../assets/images/motomami.webp',
+                image: '../assets/images/radios/motomami.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
@@ -861,7 +861,7 @@ const radioData = {
             },
             {
                 name: 'Reproductor',
-                image: '../assets/images/reproductor.webp',
+                image: '../assets/images/radios/reproductor.webp',
                 audio: 'https://viceclub.s3.us-east-1.amazonaws.com/SA/Master+Sounds+98.3.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},

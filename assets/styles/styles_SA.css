@@ -6,7 +6,7 @@
 --container-shadow-color: #045511;
 }
 body::before {
-    background-image: url(../images/fondo_sa.webp);
+    background-image: url(../images/inicio/fondo_sa.webp);
     filter: blur(5px);
 }
 h2 {
@@ -41,6 +41,7 @@ h2, h3 {
 .hamburger {
     border: 3px solid #61bb17;
     box-shadow: 1px 1px 50px #9cf980;
+    background-color: #61bb1786;
 }
 .line {
     background-color: #faf6f6;

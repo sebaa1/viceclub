@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     event.stopPropagation();
     menuContent.classList.toggle("show");
     hamburger.classList.toggle("active");
-    
+
     if (container) container.classList.toggle("menu-shift");
     if (block) block.classList.toggle("menu-shift");
   });
@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!menuContent.contains(event.target) && !hamburger.contains(event.target)) {
       menuContent.classList.remove("show");
       hamburger.classList.remove("active");
+
+      if (container) container.classList.remove("menu-shift");
+      if (block) block.classList.remove("menu-shift");
     }
   });
 });

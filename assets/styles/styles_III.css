@@ -6,7 +6,7 @@
     --container-shadow-color: #1b075e;
 }
 body::before {
-    background-image: url(../images/fondo_iii.webp);
+    background-image: url(../images/inicio/fondo_iii.webp);
     filter: blur(7px);
 }
 body {
@@ -43,6 +43,7 @@ h2, h3 {
 .hamburger {
     border: 3px solid #e8a701;
     box-shadow: 1px 1px 70px #04aff3;
+    background-color: #d0950089;
 }
 .line {
     background-color: #ffffff;
@@ -106,15 +107,6 @@ abbr {
 }
 .radio-container img:hover {
     background-image: linear-gradient( #3740b9fd, #00000075);
-}
-.radio-container img:nth-child(9) {
-    margin-left: 150px;
-}
-.radio-container img:nth-child(11) {
-    margin-left: 150px;
-}
-.radio-container img:nth-child(13) {
-    margin-left: 150px;
 }
 footer {
     background: #38737e;

@@ -6,7 +6,7 @@
     --container-shadow-color: #025a44;
     }
 body::before {
-    background-image: url(../images/fondo_v.webp);
+    background-image: url(../images/inicio/fondo_v.webp);
     filter: blur(10px);
 }
 h2 {
@@ -28,11 +28,12 @@ h2, h3 {
     background-color: #98dcec;
 }
 .header-img {
-    filter: drop-shadow(1px -10px 30px #1005ac);
+    filter: drop-shadow(1px -10px 30px #0ca623);
 }
 .hamburger {
     border: 3px solid #2b728a7d;
-    box-shadow: 1px 1px 70px #1005ac
+    box-shadow: 1px 1px 50px #0ca623;
+    background-color: #2b728a64;
 }
 .line {
     background-color: #e2f0db;

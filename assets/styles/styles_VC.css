@@ -6,7 +6,7 @@
     --container-shadow-color: #012026;
 }
 body::before {
-    background-image: url(../images/fondo_vc.webp);
+    background-image: url(../images/inicio/fondo_vc.webp);
     filter: blur(5px);
 }
 #radio-title {
@@ -39,8 +39,9 @@ h2, h3 {
     filter: drop-shadow(1px -10px 30px #330147);
 }
 .hamburger {
-    border: 3px solid #dc6ec4;
+    border: 3px solid #e650c6;
     box-shadow: 1px 1px 70px #040005;
+    background-color: rgba(217, 39, 202, 0.388);
 }
 .line {
     background-color: #faf6f6;

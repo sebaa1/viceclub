@@ -34,24 +34,44 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('Título establecido:', data.title);
 
     data.stations.forEach(station => {
-        const img = document.createElement('img');
-        img.src = station.image;
-        img.className = 'portada';
-        img.alt = station.name;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'station';
 
-        const audio = document.createElement('audio');
-        audio.className = 'song';
-        const source = document.createElement('source');
-        source.src = station.audio;
-        source.type = 'audio/mp3';
-        audio.appendChild(source);
+    const img = document.createElement('img');
+    img.src = station.image;
+    img.className = 'portada';
+    img.alt = station.name;
 
-        radioContainer.appendChild(img);
-        radioContainer.appendChild(audio);
-    });
+    const audio = document.createElement('audio');
+    audio.className = 'song';
+    const source = document.createElement('source');
+    source.src = station.audio;
+    source.type = 'audio/mp3';
+    audio.appendChild(source);
+
+    wrapper.appendChild(img);
+    wrapper.appendChild(audio);
+    radioContainer.appendChild(wrapper);
+});
+
+const total = data.stations.length;
+const columns = 4;
+const remainder = total % columns;
+
+if (remainder !== 0) {
+    const emptyColumns = columns - remainder;
+    const offset = Math.floor(emptyColumns / 2);
+
+    const wrappers = radioContainer.querySelectorAll('.station');
+    const firstOfLastRowIndex = total - remainder;
+    wrappers[firstOfLastRowIndex].style.gridColumnStart = offset + 1;
+}
+
+
+
 
     const audioElements = document.querySelectorAll('.song');
-    const playImages = document.querySelectorAll('.portada');
+    const playImages = document.querySelectorAll('.station');
 
     if (audioElements.length === 0 || playImages.length === 0) {
         console.error('No se encontraron elementos de audio o imágenes después de generarlos');

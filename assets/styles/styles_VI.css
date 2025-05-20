@@ -6,7 +6,7 @@
     --container-shadow-color: #b63eb6;
     }
 body::before {
-    background-image: url(../images/fondo_vi.webp);
+    background-image: url(../images/inicio/fondo_vi.webp);
     filter: blur(7px);
 }
 .container {
@@ -81,14 +81,15 @@ h1, h2, h3, a {
     background-color:  #8defea;
 }
 .header-img {
-    filter: drop-shadow(1px -10px 30px #170021);
+    filter: drop-shadow(1px -10px 30px #f8e258);
 }
 .hamburger {
-    border: 3px solid #52c4e6;
-    box-shadow: 1px 1px 70px #05acac
+    border: 3px solid #2dbae5;
+    box-shadow: 1px 1px 60px #f8e258;
+    background-color: #2dbae5c3;
 }
 .line {
-    background-color: #ff13accf;
+    background-color: #ffffff;
 }
 .menu-content {
     background-color: #c984c9;
@@ -102,7 +103,7 @@ h1, h2, h3, a {
     color:#520f4e;
 }
 .dropdown-content {
-    background-color: #f8a8fffa;
+    background-color: #92edcffa;
     box-shadow: 0px 8px 16px 0px #000000;
 }
 .anchor, .anchor:visited {

@@ -39,7 +39,7 @@ h2 {
     z-index: 1;
 }
 .header-img {
-    height: 70px;
+    height: 60px;
 }
 .header-img:hover {
     cursor: pointer;
@@ -123,6 +123,7 @@ h2 {
 }
 .dropdown-content {
     display: flex;
+    flex-wrap: wrap;
     opacity: 0;
     transform: translateY(-10px);
     visibility: hidden;
@@ -134,7 +135,6 @@ h2 {
     left: 0;
     width: 100%;
     flex-direction: row;
-    gap: 1px;
     transition: opacity 0.3s ease-in-out;
     justify-content: center;
     align-items: center;
@@ -298,6 +298,9 @@ abbr:hover {
     width: 30px;
     height: 25px;
 }
+.station.row-2-start {
+    grid-column-start: 1;
+}
 .radio-titulo {
     font-size: 2.5rem;
     font-weight: bold;
@@ -306,11 +309,18 @@ abbr:hover {
 }
 .radio-container {
     display: grid;
-    grid-template-columns: repeat(4, 240px);
-    gap: 50px;
-    padding: 10px;
+    grid-template-columns: repeat(4, 130px); /* 4 columnas fijas de 130px */
     justify-content: center;
+    gap: 70px;
 }
+
+.station {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
 .radio-container img {
     width: 130px;
     height: 130px;
@@ -323,6 +333,7 @@ abbr:hover {
     transition: 0.25s ease-in-out;
     cursor: pointer;
 }
+
 audio {
     display: none
 }
