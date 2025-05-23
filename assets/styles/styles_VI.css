@@ -20,16 +20,12 @@ body::before {
     font-size: 2.7rem;
     text-align: center
 }
-.block h2 {
+.block h2, .text-container h3 {
     text-align: left;
     font-size: 1.9rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: #c240a6
-}
-.block h4 {
-    color: #800080;
-    text-shadow: 3px 3px 0 #fa739775;
 }
 .block p {
     font-family: "GTA Art Deco";
@@ -74,7 +70,7 @@ body::before {
 h2 {
     color: #ffffff;
 }
-h1, h2, h3, a {
+h1, h2, h3, h4, a {
     font-family: "GTA Art Deco";
 }
 .header {
@@ -125,8 +121,8 @@ h1, h2, h3, a {
     background-color: #4e1c5a96;
 }
 .acotacion {
-    font-size: 0.9375rem;
-    color: rgb(240, 198, 231);
+    font-size: 0.9rem;
+    color: #f0c6e7;
     font-style: italic;
     margin-left: 10px;
 }
@@ -158,4 +154,10 @@ h1, h2, h3, a {
     background-color:#ecaedf;
     border-radius: 50px;
     margin: 15px 0;
+}
+.iframe-video {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #4fceea;
 }

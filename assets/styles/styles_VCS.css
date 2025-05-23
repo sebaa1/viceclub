@@ -92,14 +92,14 @@ abbr {
     background-image: linear-gradient( #77d1f5fd, #00000075);
 }
 footer {
-    background: linear-gradient(#ff3bbefd, #acacace8);
+    background: linear-gradient(#b57cd2fd, #ec8dfb);
 }
 footer p {
     color: #000000;
 }
 #playingImage {
-    border: 3px solid #fc076d;
-    background-color: #f0db81;
+    border: 3px solid #177eba;
+    background-color: #11a4ff52;
 }
 #progressBarContainer {
     background-color: #ffffff;

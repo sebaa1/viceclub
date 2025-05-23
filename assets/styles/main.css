@@ -77,14 +77,14 @@ h2 {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 .menu-content {
-    position: absolute;
+    position: fixed;
     height: auto;
     width: 250px;
     overflow-wrap: break-word;
     word-break: break-word;
     box-sizing: border-box;
     right: 0;
-    top: 150%;
+    top: 70px;
     padding: 10px 20px;
     border-radius: 6px;
     border: 3px solid #000000;
@@ -228,6 +228,7 @@ h2 {
     cursor: pointer;
 }
 .ficha-tecnica {
+    height: fit-content;
     border-radius: 6px;
     margin: 10px;
     box-shadow: #000000 0px 0px 4px;
@@ -294,6 +295,13 @@ abbr:hover {
     margin-left: 30px;
     margin-right: 30px;
 }
+.text-container h1 {
+    font-size: 2.4rem;
+}
+.text-container h2 {
+    margin-top: 40px;
+    margin-bottom: -0px;
+}
 .boton {
     width: 30px;
     height: 25px;
@@ -309,7 +317,7 @@ abbr:hover {
 }
 .radio-container {
     display: grid;
-    grid-template-columns: repeat(4, 130px); /* 4 columnas fijas de 130px */
+    grid-template-columns: repeat(4, 130px);
     justify-content: center;
     gap: 70px;
 }

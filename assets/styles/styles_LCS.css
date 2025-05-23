@@ -9,6 +9,9 @@ body::before {
     background-image: url(../images/inicio/fondo_lcs.webp);
     filter: blur(5px);
 }
+body {
+    color: #ffffff;
+}
 h2 {
     color: #ff000d;
     text-shadow: 3px 3px 3px #040401;
@@ -59,35 +62,27 @@ h2, h3 {
 }
 .ficha-tecnica {
     border: 3px solid #000000;
-    background-color: #f39494;
-}
-.ficha-tecnica h2 {
-    color: #db2424;
-    text-shadow: 1px 2px 2px #040401;
+    background-color: #692727b2;
 }
 .ficha-tecnica td, .ficha-tecnica th {
     border-top: 1px solid #000000;
 }
 .ficha-tecnica th {
     border-right: 4px solid #750000;
-    background-color: #e164649f;
+    background-color: #e1646453;
 }
 .ficha-tecnica .titulo {
-    color: #7e0000;
+    color: #f97b7b;
 }
 abbr {
     font-family: "Eurostyle";
-    color: #de2b2bfc;
+    color: #eab7b7fc;
 }
 .release-date ul {
     border-bottom: 2px solid #073e75;
 }
 .container {
-    background-color: #f5b5b5;
-}
-.radio-container {
-    grid-template-columns: repeat(3, 240px) !important;
-    gap: 60px !important;
+    background-color: #560e0e;
 }
 .radio-container img {
     background-color: #630400;
@@ -96,7 +91,7 @@ abbr {
     background-image: linear-gradient( #be3921fd, #00000007);
 }
 footer {
-    background: linear-gradient(#f87867, #722f2f);
+    background: linear-gradient(#c73926, #4f1111);
 }
 footer p, #timeCurrent {
     color: #ffffff;
@@ -110,13 +105,4 @@ footer p, #timeCurrent {
 }
 #progressBar {
     background-color: #3d0303;
-}
-.menu {
-    border: 4px solid #77728f;
-    background-color: #b4adad2f;
-    box-shadow: 0 0 30px #68656e9f;
-}
-.imagen-plataforma img {
-    border: 4px solid #0c0c0c;
-    background-color: #1ad8e61a;
 }

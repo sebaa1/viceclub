@@ -21,5 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (container) container.classList.remove("menu-shift");
       if (block) block.classList.remove("menu-shift");
     }
+
+    
   });
 });

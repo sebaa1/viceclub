@@ -26,7 +26,7 @@ const radioData = {
             {
                 name: 'Double Clef FM',
                 image: '../assets/images/radios/doublecleff.webp',
-                audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/Double+Clef+FM.mp3',
+                audio: 'https://viceclub.s3.us-east-1.amazonaws.com/III/doubleclef.mp3',
                 tracks: [
                     { time: 0, song: '', artist: ''},
                     { time: 9, song: 'Non Piu Andrai Farfallone Amoroso', artist: 'Wolfgang Amadeus Mozart' },

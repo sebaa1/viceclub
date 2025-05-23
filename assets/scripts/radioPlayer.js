@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Script tag encontrado, gameKey:', gameKey);
     } else {
         console.error('No se encontró el script tag');
-        gameKey = 'gta-iii';
     }
     if (!window.radioData || !window.radioData[gameKey]) {
         console.error('Datos no encontrados para el juego:', gameKey);
@@ -104,13 +103,23 @@ if (remainder !== 0) {
             }
         }
         
-        const newTrackText = `${currentSong.artist} - ${currentSong.song}`;
-        if (newTrackText !== lastTrackText) { 
-            currentTrack.textContent = newTrackText;
-            lastTrackText = newTrackText;
-            animateTrackText(); 
-        }
+        let newTrackText;
+    if (currentSong.song && currentSong.artist) {
+        newTrackText = `${currentSong.artist} - ${currentSong.song}`;
+        currentTrack.textContent = newTrackText;
+        document.getElementById('currentTrackWrapper').style.display = 'block';
+    } else {
+        newTrackText = ' ';
+        currentTrack.textContent = newTrackText;
+        document.getElementById('currentTrackWrapper').style.display = 'none';
     }
+
+    if (newTrackText !== lastTrackText) {
+        lastTrackText = newTrackText;
+        animateTrackText();
+    }
+}
+
 
     function updateProgressBar() {
         if (currentAudio && currentAudio.duration > 0) {
@@ -220,8 +229,10 @@ if (remainder !== 0) {
             currentAudio = selectedAudio;
 
             nowPlaying.classList.remove('hidden');
-            playingImage.src = image.src;
-            playingTitle.textContent = `Reproduciendo: ${image.alt}`;
+            const imgElement = image.querySelector('img');
+            playingImage.src = imgElement?.src || '';
+            playingTitle.textContent = `Reproduciendo: ${imgElement?.alt || 'Sin título'}`;
+
             updateTrackInfo();
         });
     });

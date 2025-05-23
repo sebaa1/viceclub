@@ -89,9 +89,16 @@ abbr {
     transition: 1s ease;
 }
 footer {
-    background: linear-gradient(#98d6a5fd, #1f1e1fc9);
+    background: linear-gradient(#98d6d4fd, #114a02);
 }
 footer p {
+    color: #ffffff;
+}
+#time {
+    color: #ffffff;
+    text-shadow: 3px 3px 0 #000000;
+}
+#timeCurrent {
     color: #ffffff;
 }
 #playingImage {

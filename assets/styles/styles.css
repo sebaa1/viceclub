@@ -124,15 +124,17 @@ tr {
     border-radius: 12px;
     box-shadow: 5px 5px 60px #000000b5;
 }
+.fotd h4 {
+    text-align: center;
+}
 
 .fact-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     height: auto;
 }
-
 .fact-text {
     flex: 1;
     font-size: 16px;
